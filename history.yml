@@ -1,0 +1,190 @@
+---
+rpa_lect1: "data: {\"suf_bot_name\":\"BOT\",\"dataid\":\"rpa_lect1\",\"bot_name\":\"AR01\",\"total_record\":\"8869\",\"last_updated\":\"2024-03-22
+  13:22:51 +0530\",\"comp_record\":\"7000\",\"current\":79,\"last\":79,\"symble\":\"%\",\"stat\":\"7000/8869\",\"id\":\"rpa_lect1\",\"updatedAt\":1718301247383}\n\n"
+pages_AR01: "data: {\"table_headers\":[{\"value\":\"Bot Name\"},{\"value\":\"TotalRecordsCompleted\"},{\"value\":\"TotalRecordsProcessed\"},{\"value\":\"DateReleasedIntoProduction\"},{\"value\":\"AverageLengthOfRun\"},{\"value\":\"FrequencyOfOperation\"},{\"value\":\"ActionWhenBotNotRunning\"},{\"value\":\"DateFilledOut\"}],\"pages\":[{\"col1\":\"AR01\",\"col2\":\"7000\",\"col3\":\"8869\",\"col4\":\"2023-05-09\",\"col5\":\"1
+  hour 28 minutes for 88 records\",\"col6\":\"Daily\",\"col7\":\"Catch up run scheduled
+  accordingly\",\"col8\":\"2024-09-02\"}],\"id\":\"pages_AR01\",\"updatedAt\":1718301247393}\n\n"
+pages2_AR01: "data: {\"table_headers\":[{\"value\":\"file_name\"},{\"value\":\"Total_records\"},{\"value\":\"Input_records_to_the_bot\"},{\"value\":\"Processed_records_by_bot\"},{\"value\":\"Success_result\"}],\"pages\":[{\"id\":16,\"col1\":\"AR01\",\"col2\":\"AR01-MasterFile-07-03-2024.csv\",\"col3\":\"57\",\"col4\":\"39\",\"col5\":\"34\",\"col6\":\"87.18%\",\"table_headers\":[{\"value\":\"file_name\"},{\"value\":\"Total_records\"},{\"value\":\"Input_records_to_the_bot\"},{\"value\":\"Processed_records_by_bot\"},{\"value\":\"Success_result\"}]},{\"id\":15,\"col1\":\"AR01\",\"col2\":\"AR01-MasterFile-08-03-2024.csv\",\"col3\":\"49\",\"col4\":\"29\",\"col5\":\"26\",\"col6\":\"89.66%\",\"table_headers\":[{\"value\":\"file_name\"},{\"value\":\"Total_records\"},{\"value\":\"Input_records_to_the_bot\"},{\"value\":\"Processed_records_by_bot\"},{\"value\":\"Success_result\"}]},{\"id\":14,\"col1\":\"AR01\",\"col2\":\"AR01-MasterFile-09-03-2024.csv\",\"col3\":\"50\",\"col4\":\"35\",\"col5\":\"29\",\"col6\":\"82.86%\",\"table_headers\":[{\"value\":\"file_name\"},{\"value\":\"Total_records\"},{\"value\":\"Input_records_to_the_bot\"},{\"value\":\"Processed_records_by_bot\"},{\"value\":\"Success_result\"}]},{\"id\":13,\"col1\":\"AR01\",\"col2\":\"AR01-MasterFile-10-03-2024.csv\",\"col3\":\"12\",\"col4\":\"9\",\"col5\":\"6\",\"col6\":\"66.67%\",\"table_headers\":[{\"value\":\"file_name\"},{\"value\":\"Total_records\"},{\"value\":\"Input_records_to_the_bot\"},{\"value\":\"Processed_records_by_bot\"},{\"value\":\"Success_result\"}]},{\"id\":12,\"col1\":\"AR01\",\"col2\":\"AR01-MasterFile-11-03-2024.csv\",\"col3\":\"15\",\"col4\":\"13\",\"col5\":\"11\",\"col6\":\"84.62%\",\"table_headers\":[{\"value\":\"file_name\"},{\"value\":\"Total_records\"},{\"value\":\"Input_records_to_the_bot\"},{\"value\":\"Processed_records_by_bot\"},{\"value\":\"Success_result\"}]},{\"id\":11,\"col1\":\"AR01\",\"col2\":\"AR01-MasterFile-12-03-2024.csv\",\"col3\":\"47\",\"col4\":\"30\",\"col5\":\"28\",\"col6\":\"93.33%\",\"table_headers\":[{\"value\":\"file_name\"},{\"value\":\"Total_records\"},{\"value\":\"Input_records_to_the_bot\"},{\"value\":\"Processed_records_by_bot\"},{\"value\":\"Success_result\"}]},{\"id\":10,\"col1\":\"AR01\",\"col2\":\"AR01-MasterFile-13-03-2024.csv\",\"col3\":\"42\",\"col4\":\"33\",\"col5\":\"26\",\"col6\":\"78.79%\",\"table_headers\":[{\"value\":\"file_name\"},{\"value\":\"Total_records\"},{\"value\":\"Input_records_to_the_bot\"},{\"value\":\"Processed_records_by_bot\"},{\"value\":\"Success_result\"}]},{\"id\":9,\"col1\":\"AR01\",\"col2\":\"AR01-MasterFile-14-03-2024.csv\",\"col3\":\"41\",\"col4\":\"21\",\"col5\":\"18\",\"col6\":\"85.71%\",\"table_headers\":[{\"value\":\"file_name\"},{\"value\":\"Total_records\"},{\"value\":\"Input_records_to_the_bot\"},{\"value\":\"Processed_records_by_bot\"},{\"value\":\"Success_result\"}]},{\"id\":8,\"col1\":\"AR01\",\"col2\":\"AR01-MasterFile-15-03-2024.csv\",\"col3\":\"36\",\"col4\":\"23\",\"col5\":\"20\",\"col6\":\"86.96%\",\"table_headers\":[{\"value\":\"file_name\"},{\"value\":\"Total_records\"},{\"value\":\"Input_records_to_the_bot\"},{\"value\":\"Processed_records_by_bot\"},{\"value\":\"Success_result\"}]},{\"id\":7,\"col1\":\"AR01\",\"col2\":\"AR01-MasterFile-16-03-2024.csv\",\"col3\":\"58\",\"col4\":\"45\",\"col5\":\"37\",\"col6\":\"82.22%\",\"table_headers\":[{\"value\":\"file_name\"},{\"value\":\"Total_records\"},{\"value\":\"Input_records_to_the_bot\"},{\"value\":\"Processed_records_by_bot\"},{\"value\":\"Success_result\"}]},{\"id\":6,\"col1\":\"AR01\",\"col2\":\"AR01-MasterFile-17-03-2024.csv\",\"col3\":\"24\",\"col4\":\"19\",\"col5\":\"19\",\"col6\":\"100.0%\",\"table_headers\":[{\"value\":\"file_name\"},{\"value\":\"Total_records\"},{\"value\":\"Input_records_to_the_bot\"},{\"value\":\"Processed_records_by_bot\"},{\"value\":\"Success_result\"}]},{\"id\":5,\"col1\":\"AR01\",\"col2\":\"AR01-MasterFile-19-03-2024.csv\",\"col3\":\"28\",\"col4\":\"23\",\"col5\":\"20\",\"col6\":\"86.96%\",\"table_headers\":[{\"value\":\"file_name\"},{\"value\":\"Total_records\"},{\"value\":\"Input_records_to_the_bot\"},{\"value\":\"Processed_records_by_bot\"},{\"value\":\"Success_result\"}]},{\"id\":4,\"col1\":\"AR01\",\"col2\":\"AR01-MasterFile-Catchup-2024-03-17.csv\",\"col3\":\"12\",\"col4\":\"9\",\"col5\":\"8\",\"col6\":\"88.89%\",\"table_headers\":[{\"value\":\"file_name\"},{\"value\":\"Total_records\"},{\"value\":\"Input_records_to_the_bot\"},{\"value\":\"Processed_records_by_bot\"},{\"value\":\"Success_result\"}]},{\"id\":3,\"col1\":\"AR01\",\"col2\":\"AR01-MasterFile-20-03-2024.csv\",\"col3\":\"73\",\"col4\":\"57\",\"col5\":\"52\",\"col6\":\"91.23%\",\"table_headers\":[{\"value\":\"file_name\"},{\"value\":\"Total_records\"},{\"value\":\"Input_records_to_the_bot\"},{\"value\":\"Processed_records_by_bot\"},{\"value\":\"Success_result\"}]},{\"id\":2,\"col1\":\"AR01\",\"col2\":\"AR01-MasterFile-21-03-2024.csv\",\"col3\":\"50\",\"col4\":\"35\",\"col5\":\"29\",\"col6\":\"82.86%\",\"table_headers\":[{\"value\":\"file_name\"},{\"value\":\"Total_records\"},{\"value\":\"Input_records_to_the_bot\"},{\"value\":\"Processed_records_by_bot\"},{\"value\":\"Success_result\"}]},{\"id\":1,\"col1\":\"AR01\",\"col2\":\"AR01-MasterFile-13-03-2024.csv\",\"col3\":\"42\",\"col4\":\"33\",\"col5\":\"26\",\"col6\":\"78.79%\",\"table_headers\":[{\"value\":\"file_name\"},{\"value\":\"Total_records\"},{\"value\":\"Input_records_to_the_bot\"},{\"value\":\"Processed_records_by_bot\"},{\"value\":\"Success_result\"}]}],\"id\":\"pages2_AR01\",\"updatedAt\":1718301247393}\n\n"
+response_time_1: "data: {\"value\":319,\"id\":\"response_time_1\",\"updatedAt\":1718301254503}\n\n"
+response_time_2: "data: {\"value\":188,\"id\":\"response_time_2\",\"updatedAt\":1718301254503}\n\n"
+widget_id: "data: {\"id\":\"widget_id\",\"updatedAt\":1718301217531}\n\n"
+my-table: "data: {\"hrows\":[{\"cols\":[{\"value\":\"One\"},{\"value\":\"Two\"},{\"value\":\"Three\"},{\"value\":\"Four\"}]}],\"rows\":[{\"cols\":[{\"value\":\"cell11\"},{\"value\":2},{\"value\":2},{\"value\":1}]},{\"cols\":[{\"value\":\"cell21\"},{\"value\":3},{\"value\":0},{\"value\":1}]},{\"cols\":[{\"value\":\"cell31\"},{\"value\":0},{\"value\":0},{\"value\":4}]},{\"cols\":[{\"value\":\"cell41\"},{\"value\":2},{\"value\":2},{\"value\":1}]}],\"id\":\"my-table\",\"updatedAt\":1718301217531}\n\n"
+lect1: "data: {\"current\":98,\"last\":98,\"stat\":\"%   49/50\",\"manager\":\"이종찬\",\"category\":\"KS\",\"title\":\"경영간부를
+  위한 품질경영\",\"dday\":\"2021.05.27  ~  2021.05.28\",\"location\":\"본부\",\"id\":\"lect1\",\"updatedAt\":1718301247300}\n\n"
+lect2: "data: {\"current\":100,\"last\":100,\"stat\":\"%   60/60\",\"manager\":\"김영주\",\"category\":\"KS\",\"title\":\"품질관리담당자
+  양성\",\"dday\":\"2021.05.25  ~  2021.06.11\",\"location\":\"경남지역본부\",\"id\":\"lect2\",\"updatedAt\":1718301247300}\n\n"
+lect3: "data: {\"current\":100,\"last\":100,\"stat\":\"%   51/50\",\"manager\":\"정아름\",\"category\":\"KS\",\"title\":\"품질관리담당자
+  정기교육\",\"dday\":\"2021.05.25  ~  2021.05.26\",\"location\":\"본부\",\"id\":\"lect3\",\"updatedAt\":1718301247300}\n\n"
+lect4: "data: {\"current\":0,\"last\":0,\"stat\":\"%   37/0\",\"manager\":\"이종찬\",\"category\":\"KS\",\"title\":\"경영간부를
+  위한 품질경영\",\"dday\":\"2021.05.25  ~  2021.05.26\",\"location\":\"충북지역본부\",\"id\":\"lect4\",\"updatedAt\":1718301247300}\n\n"
+lect5: "data: {\"current\":100,\"last\":100,\"stat\":\"%   60/45\",\"manager\":\"김영주\",\"category\":\"KS\",\"title\":\"품질관리담당자
+  양성\",\"dday\":\"2021.05.24  ~  2021.06.11\",\"location\":\"본부\",\"id\":\"lect5\",\"updatedAt\":1718301247300}\n\n"
+lect6: "data: {\"current\":100,\"last\":100,\"stat\":\"%   60/60\",\"manager\":\"이종찬\",\"category\":\"KS\",\"title\":\"경영간부를
+  위한 품질경영\",\"dday\":\"2021.05.31  ~  2021.06.01\",\"location\":\"부산지역본부\",\"id\":\"lect6\",\"updatedAt\":1718301247300}\n\n"
+lect7: "data: {\"current\":114,\"last\":114,\"stat\":\"%   57/50\",\"manager\":\"이종찬\",\"category\":\"KS\",\"title\":\"경영간부를
+  위한 품질경영(중국/합숙)\",\"dday\":\"2021.05.24  ~  2021.05.26\",\"location\":\"본부\",\"id\":\"lect7\",\"updatedAt\":1718301247300}\n\n"
+lect8: "data: {\"current\":40,\"last\":40,\"stat\":\"%   10/25\",\"manager\":\"김영주\",\"category\":\"KS\",\"title\":\"품질관리담당자
+  양성(중국/합숙)\",\"dday\":\"2021.05.31  ~  2021.06.18\",\"location\":\"본부\",\"id\":\"lect8\",\"updatedAt\":1718301247300}\n\n"
+lect9: "data: {\"current\":100,\"last\":100,\"stat\":\"%   50/50\",\"manager\":\"이종찬\",\"category\":\"KS\",\"title\":\"경영간부를
+  위한 품질경영\",\"dday\":\"2021.05.24  ~  2021.05.25\",\"location\":\"의정부사무소\",\"id\":\"lect9\",\"updatedAt\":1718301247300}\n\n"
+lect10: "data: {\"current\":104,\"last\":104,\"stat\":\"%   52/50\",\"manager\":\"이종찬\",\"category\":\"KS\",\"title\":\"경영간부를
+  위한 품질경영\",\"dday\":\"2021.06.01  ~  2021.06.02\",\"location\":\"인천지역본부\",\"id\":\"lect10\",\"updatedAt\":1718301247300}\n\n"
+lect11: "data: {\"current\":83,\"last\":83,\"stat\":\"%   33/40\",\"manager\":\"이종찬\",\"category\":\"KS\",\"title\":\"경영간부를
+  위한 경영혁신\",\"dday\":\"2021.06.01  ~  2021.06.02\",\"location\":\"대전세종충남지역본부\",\"id\":\"lect11\",\"updatedAt\":1718301247300}\n\n"
+lect12: "data: {\"current\":76,\"last\":76,\"stat\":\"%   38/50\",\"manager\":\"이종찬\",\"category\":\"KS\",\"title\":\"경영간부를
+  위한 품질경영\",\"dday\":\"2021.06.03  ~  2021.06.04\",\"location\":\"충북지역본부\",\"id\":\"lect12\",\"updatedAt\":1718301247300}\n\n"
+lect13: "data: {\"current\":68,\"last\":68,\"stat\":\"%   27/40\",\"manager\":\"이종찬\",\"category\":\"KS\",\"title\":\"경영간부를
+  위한 생산경영\",\"dday\":\"2021.06.03  ~  2021.06.04\",\"location\":\"전북지역본부\",\"id\":\"lect13\",\"updatedAt\":1718301247300}\n\n"
+lect14: "data: {\"current\":12,\"last\":12,\"stat\":\"%   3/26\",\"manager\":\"윤대희\",\"category\":\"공개\",\"title\":\"무역실무
+  기초\",\"dday\":\"2021.06.03  ~  2021.06.04\",\"location\":\"본부\",\"id\":\"lect14\",\"updatedAt\":1718301247300}\n\n"
+lect15: "data: {\"current\":4,\"last\":4,\"stat\":\"%   1/25\",\"manager\":\"박영순\",\"category\":\"공개\",\"title\":\"설비
+  총점검 추진 실무\",\"dday\":\"2021.05.26  ~  2021.05.28\",\"location\":\"부산지역본부\",\"id\":\"lect15\",\"updatedAt\":1718301247300}\n\n"
+lect16: "data: {\"current\":38,\"last\":38,\"stat\":\"%   10/26\",\"manager\":\"김민선\",\"category\":\"공개\",\"title\":\"리더십
+  역량 개발\",\"dday\":\"2021.05.26  ~  2021.05.28\",\"location\":\"본부\",\"id\":\"lect16\",\"updatedAt\":1718301247300}\n\n"
+lect17: "data: {\"current\":44,\"last\":44,\"stat\":\"%   11/25\",\"manager\":\"박영순\",\"category\":\"공개\",\"title\":\"설비
+  윤활 기술\",\"dday\":\"2021.05.27  ~  2021.05.28\",\"location\":\"대구경북지역본부\",\"id\":\"lect17\",\"updatedAt\":1718301247300}\n\n"
+lect18: "data: {\"current\":9,\"last\":9,\"stat\":\"%   3/34\",\"manager\":\"노승인\",\"category\":\"공개\",\"title\":\"KOSHA/ISO
+  45001(안전보건경\",\"dday\":\"2021.05.27  ~  2021.05.28\",\"location\":\"경남지역본부\",\"id\":\"lect18\",\"updatedAt\":1718301247300}\n\n"
+lect19: "data: {\"current\":15,\"last\":15,\"stat\":\"%   4/26\",\"manager\":\"김민선\",\"category\":\"공개\",\"title\":\"[통합]
+  업무가 100배 빨라지는 엑셀\",\"dday\":\"2021.05.27  ~  2021.05.28\",\"location\":\"대전세종충남지역본부\",\"id\":\"lect19\",\"updatedAt\":1718301247300}\n\n"
+lect20: "data: {\"current\":4,\"last\":4,\"stat\":\"%   1/25\",\"manager\":\"박영순\",\"category\":\"공개\",\"title\":\"기계
+  도면 해독 기본\",\"dday\":\"2021.06.01  ~  2021.06.03\",\"location\":\"부산지역본부\",\"id\":\"lect20\",\"updatedAt\":1718301247300}\n\n"
+lect21: "data: {\"current\":0,\"last\":0,\"stat\":\"%   20/0\",\"manager\":\"노승인\",\"category\":\"공개\",\"title\":\"ESG
+  추진실무\",\"dday\":\"2021.05.27  ~  2021.05.28\",\"location\":\"본부\",\"id\":\"lect21\",\"updatedAt\":1718301247300}\n\n"
+lect22: "data: {\"current\":16,\"last\":16,\"stat\":\"%   4/25\",\"manager\":\"서미애\",\"category\":\"공개\",\"title\":\"R&D
+  혁신을 위한 기획 및 관리\",\"dday\":\"2021.06.02  ~  2021.06.04\",\"location\":\"본부\",\"id\":\"lect22\",\"updatedAt\":1718301247300}\n\n"
+lect23: "data: {\"current\":20,\"last\":20,\"stat\":\"%   5/25\",\"manager\":\"박영순\",\"category\":\"공개\",\"title\":\"제조
+  혁신을 위한 현장 관리자 스킬 향\",\"dday\":\"2021.06.02  ~  2021.06.04\",\"location\":\"본부\",\"id\":\"lect23\",\"updatedAt\":1718301247300}\n\n"
+lect24: "data: {\"current\":4,\"last\":4,\"stat\":\"%   1/25\",\"manager\":\"박영순\",\"category\":\"공개\",\"title\":\"자주
+  보전 추진 실무\",\"dday\":\"2021.06.02  ~  2021.06.04\",\"location\":\"대구경북지역본부\",\"id\":\"lect24\",\"updatedAt\":1718301247300}\n\n"
+lect25: "data: {\"current\":3,\"last\":3,\"stat\":\"%   1/34\",\"manager\":\"노승인\",\"category\":\"공개\",\"title\":\"FSSC/ISO
+  22000/HACCP(\",\"dday\":\"2021.05.31  ~  2021.06.01\",\"location\":\"본부\",\"id\":\"lect25\",\"updatedAt\":1718301247300}\n\n"
+lect26: "data: {\"current\":38,\"last\":38,\"stat\":\"%   13/34\",\"manager\":\"노승인\",\"category\":\"공개\",\"title\":\"[등록민간자격]
+  ISO 9001 내부\",\"dday\":\"2021.05.31  ~  2021.06.01\",\"location\":\"대전세종충남지역본부\",\"id\":\"lect26\",\"updatedAt\":1718301247300}\n\n"
+lect27: "data: {\"current\":8,\"last\":8,\"stat\":\"%   2/26\",\"manager\":\"윤대희\",\"category\":\"공개\",\"title\":\"[자격]선발평가전문가
+  양성(2급)\",\"dday\":\"2021.05.31  ~  2021.06.01\",\"location\":\"본부\",\"id\":\"lect27\",\"updatedAt\":1718301247300}\n\n"
+lect28: "data: {\"current\":0,\"last\":0,\"stat\":\"%   0/30\",\"manager\":\"성혜지\",\"category\":\"공개\",\"title\":\"안전보건관리담당자보수교육\",\"dday\":\"2021.06.01
+   ~  2021.06.01\",\"location\":\"본부\",\"id\":\"lect28\",\"updatedAt\":1718301247300}\n\n"
+lect29: "data: {\"current\":56,\"last\":56,\"stat\":\"%   14/25\",\"manager\":\"서미애\",\"category\":\"공개\",\"title\":\"품질
+  보증(QA) 실무\",\"dday\":\"2021.05.31  ~  2021.06.02\",\"location\":\"본부\",\"id\":\"lect29\",\"updatedAt\":1718301247300}\n\n"
+lect30: "data: {\"current\":21,\"last\":21,\"stat\":\"%   7/34\",\"manager\":\"노승인\",\"category\":\"공개\",\"title\":\"ISO
+  9001/14001 통합 시스템\",\"dday\":\"2021.05.31  ~  2021.06.02\",\"location\":\"본부\",\"id\":\"lect30\",\"updatedAt\":1718301247300}\n\n"
+lect31: "data: {\"current\":60,\"last\":60,\"stat\":\"%   12/20\",\"manager\":\"노승인\",\"category\":\"공개\",\"title\":\"ISO
+  9001(품질경영시스템) 인증심\",\"dday\":\"2021.05.31  ~  2021.06.04\",\"location\":\"본부\",\"id\":\"lect31\",\"updatedAt\":1718301247300}\n\n"
+lect32: "data: {\"current\":8,\"last\":8,\"stat\":\"%   2/25\",\"manager\":\"서미애\",\"category\":\"공개\",\"title\":\"신뢰성
+  시험 설계 실무\",\"dday\":\"2021.06.01  ~  2021.06.04\",\"location\":\"본부\",\"id\":\"lect32\",\"updatedAt\":1718301247300}\n\n"
+lect33: "data: {\"current\":12,\"last\":12,\"stat\":\"%   3/25\",\"manager\":\"서미애\",\"category\":\"공개\",\"title\":\"[등록민간자격]
+  식스시그마 블랙벨트(B\",\"dday\":\"2021.05.31  ~  2021.06.04\",\"location\":\"본부\",\"id\":\"lect33\",\"updatedAt\":1718301247300}\n\n"
+lect34: "data: {\"current\":6,\"last\":6,\"stat\":\"%   2/34\",\"manager\":\"노승인\",\"category\":\"공개\",\"title\":\"ISO
+  9001 검사 교정 실무\",\"dday\":\"2021.06.02  ~  2021.06.03\",\"location\":\"부산지역본부\",\"id\":\"lect34\",\"updatedAt\":1718301247300}\n\n"
+lect35: "data: {\"current\":0,\"last\":0,\"stat\":\"%   0/26\",\"manager\":\"김민선\",\"category\":\"공개\",\"title\":\"퇴직예정자를
+  위한 전직비전스쿨\",\"dday\":\"2021.05.31  ~  2021.06.04\",\"location\":\"본부\",\"id\":\"lect35\",\"updatedAt\":1718301247300}\n\n"
+lect36: "data: {\"current\":0,\"last\":0,\"stat\":\"%   0/25\",\"manager\":\"박영순\",\"category\":\"공개\",\"title\":\"유압
+  설비와 보전\",\"dday\":\"2021.06.02  ~  2021.06.04\",\"location\":\"대전세종충남지역본부\",\"id\":\"lect36\",\"updatedAt\":1718301247300}\n\n"
+lect37: "data: {\"current\":25,\"last\":25,\"stat\":\"%   5/20\",\"manager\":\"성혜지\",\"category\":\"공개\",\"title\":\"현장에서알아야할안전관리핵심실무\",\"dday\":\"2021.06.02
+   ~  2021.06.04\",\"location\":\"본부\",\"id\":\"lect37\",\"updatedAt\":1718301247300}\n\n"
+lect38: "data: {\"current\":0,\"last\":0,\"stat\":\"%   0/26\",\"manager\":\"김민선\",\"category\":\"공개\",\"title\":\"동기부여와
+  셀프 리더십\",\"dday\":\"2021.06.03  ~  2021.06.04\",\"location\":\"본부\",\"id\":\"lect38\",\"updatedAt\":1718301247300}\n\n"
+lect39: "data: {\"current\":15,\"last\":15,\"stat\":\"%   5/34\",\"manager\":\"노승인\",\"category\":\"공개\",\"title\":\"[등록민간자격]
+  KOSHA/ISO 45\",\"dday\":\"2021.06.03  ~  2021.06.04\",\"location\":\"대전세종충남지역본부\",\"id\":\"lect39\",\"updatedAt\":1718301247300}\n\n"
+lect40: "data: {\"current\":80,\"last\":80,\"stat\":\"%   8/10\",\"manager\":\"서미애\",\"category\":\"공개\",\"title\":\"APQP/PPAP
+  추진 실무\",\"dday\":\"2021.05.24  ~  2021.05.25\",\"location\":\"경기강원지역본부\",\"id\":\"lect40\",\"updatedAt\":1718301247300}\n\n"
+lect41: "data: {\"current\":24,\"last\":24,\"stat\":\"%   6/25\",\"manager\":\"박영순\",\"category\":\"공개\",\"title\":\"물류
+  담당자 업무 능력 향상\",\"dday\":\"2021.05.24  ~  2021.05.25\",\"location\":\"본부\",\"id\":\"lect41\",\"updatedAt\":1718301247300}\n\n"
+lect42: "data: {\"current\":100,\"last\":100,\"stat\":\"%   25/25\",\"manager\":\"박영순\",\"category\":\"공개\",\"title\":\"설비
+  윤활 기술\",\"dday\":\"2021.05.24  ~  2021.05.25\",\"location\":\"울산지역본부\",\"id\":\"lect42\",\"updatedAt\":1718301247300}\n\n"
+lect43: "data: {\"current\":0,\"last\":0,\"stat\":\"%   7/0\",\"manager\":\"노승인\",\"category\":\"공개\",\"title\":\"KOSHA/ISO
+  45001(안전보건경\",\"dday\":\"2021.05.24  ~  2021.05.25\",\"location\":\"본부\",\"id\":\"lect43\",\"updatedAt\":1718301247300}\n\n"
+lect44: "data: {\"current\":19,\"last\":19,\"stat\":\"%   5/26\",\"manager\":\"김민선\",\"category\":\"공개\",\"title\":\"[엑셀]
+  보고서를 위한 함수와 피벗테이\",\"dday\":\"2021.05.24  ~  2021.05.25\",\"location\":\"본부\",\"id\":\"lect44\",\"updatedAt\":1718301247300}\n\n"
+lect45: "data: {\"current\":55,\"last\":55,\"stat\":\"%   11/20\",\"manager\":\"성혜지\",\"category\":\"공개\",\"title\":\"작업안전분석(JSA)실무\",\"dday\":\"2021.05.24
+   ~  2021.05.25\",\"location\":\"본부\",\"id\":\"lect45\",\"updatedAt\":1718301247300}\n\n"
+lect46: "data: {\"current\":15,\"last\":15,\"stat\":\"%   5/34\",\"manager\":\"노승인\",\"category\":\"공개\",\"title\":\"[등록민간자격]
+  ISO 9001 내부\",\"dday\":\"2021.06.03  ~  2021.06.04\",\"location\":\"경남지역본부\",\"id\":\"lect46\",\"updatedAt\":1718301247300}\n\n"
+lect47: "data: {\"current\":72,\"last\":72,\"stat\":\"%   18/25\",\"manager\":\"서미애\",\"category\":\"공개\",\"title\":\"품질
+  관리(QC) 기본\",\"dday\":\"2021.05.24  ~  2021.05.26\",\"location\":\"본부\",\"id\":\"lect47\",\"updatedAt\":1718301247300}\n\n"
+lect48: "data: {\"current\":24,\"last\":24,\"stat\":\"%   8/34\",\"manager\":\"노승인\",\"category\":\"공개\",\"title\":\"[등록민간자격]
+  ISO 9001 내부\",\"dday\":\"2021.06.03  ~  2021.06.04\",\"location\":\"본부\",\"id\":\"lect48\",\"updatedAt\":1718301247300}\n\n"
+lect49: "data: {\"current\":100,\"last\":100,\"stat\":\"%   28/28\",\"manager\":\"노승수\",\"category\":\"공개\",\"title\":\"KS인증심사원
+  양성(제품)\",\"dday\":\"2021.05.24  ~  2021.05.28\",\"location\":\"본부\",\"id\":\"lect49\",\"updatedAt\":1718301247300}\n\n"
+lect50: "data: {\"current\":0,\"last\":0,\"stat\":\"%   0/30\",\"manager\":\"서미애\",\"category\":\"공개\",\"title\":\"(주)티에스이_(생산
+  현장에서 적용하는\",\"dday\":\"2021.05.24  ~  2021.06.09\",\"location\":\"대전세종충남지역본부\",\"id\":\"lect50\",\"updatedAt\":1718301247300}\n\n"
+lect51: "data: {\"current\":42,\"last\":42,\"stat\":\"%   11/26\",\"manager\":\"윤대희\",\"category\":\"공개\",\"title\":\"인사
+  노무 관리 (근로기준법 종합 실무\",\"dday\":\"2021.05.24  ~  2021.05.26\",\"location\":\"본부\",\"id\":\"lect51\",\"updatedAt\":1718301247300}\n\n"
+lect52: "data: {\"current\":73,\"last\":73,\"stat\":\"%   22/30\",\"manager\":\"성혜지\",\"category\":\"공개\",\"title\":\"안전관리자신규교육(건설업)\",\"dday\":\"2021.05.24
+   ~  2021.05.28\",\"location\":\"본부\",\"id\":\"lect52\",\"updatedAt\":1718301247300}\n\n"
+lect53: "data: {\"current\":53,\"last\":53,\"stat\":\"%   8/15\",\"manager\":\"김건희\",\"category\":\"공개\",\"title\":\"[국제자격]
+  ITC 열화상 진단 기술자\",\"dday\":\"2021.05.24  ~  2021.05.28\",\"location\":\"부산지역본부\",\"id\":\"lect53\",\"updatedAt\":1718301247300}\n\n"
+lect54: "data: {\"current\":80,\"last\":80,\"stat\":\"%   24/30\",\"manager\":\"성혜지\",\"category\":\"공개\",\"title\":\"안전보건관리담당자보수교육\",\"dday\":\"2021.05.25
+   ~  2021.05.25\",\"location\":\"경남지역본부\",\"id\":\"lect54\",\"updatedAt\":1718301247300}\n\n"
+lect55: "data: {\"current\":44,\"last\":44,\"stat\":\"%   11/25\",\"manager\":\"박영순\",\"category\":\"공개\",\"title\":\"설비
+  윤활 기술\",\"dday\":\"2021.05.25  ~  2021.05.26\",\"location\":\"인천지역본부\",\"id\":\"lect55\",\"updatedAt\":1718301247300}\n\n"
+lect56: "data: {\"current\":80,\"last\":80,\"stat\":\"%   20/25\",\"manager\":\"박영순\",\"category\":\"공개\",\"title\":\"설비
+  윤활 기술\",\"dday\":\"2021.05.25  ~  2021.05.26\",\"location\":\"경기강원지역본부\",\"id\":\"lect56\",\"updatedAt\":1718301247300}\n\n"
+lect57: "data: {\"current\":0,\"last\":0,\"stat\":\"%   0/34\",\"manager\":\"노승인\",\"category\":\"공개\",\"title\":\"KOSHA/ISO
+  45001(안전보건경\",\"dday\":\"2021.06.03  ~  2021.06.04\",\"location\":\"울산지역본부\",\"id\":\"lect57\",\"updatedAt\":1718301247300}\n\n"
+lect58: "data: {\"current\":9,\"last\":9,\"stat\":\"%   3/34\",\"manager\":\"노승인\",\"category\":\"공개\",\"title\":\"ISO
+  9001 시스템 추진 실무\",\"dday\":\"2021.06.03  ~  2021.06.04\",\"location\":\"본부\",\"id\":\"lect58\",\"updatedAt\":1718301247300}\n\n"
+lect59: "data: {\"current\":15,\"last\":15,\"stat\":\"%   5/34\",\"manager\":\"노승인\",\"category\":\"공개\",\"title\":\"IATF
+  16949 시스템 추진 실무\",\"dday\":\"2021.06.03  ~  2021.06.04\",\"location\":\"경기강원지역본부\",\"id\":\"lect59\",\"updatedAt\":1718301247300}\n\n"
+lect60: "data: {\"current\":8,\"last\":8,\"stat\":\"%   2/25\",\"manager\":\"박영순\",\"category\":\"공개\",\"title\":\"자재
+  & 재고 관리 기본\",\"dday\":\"2021.06.03  ~  2021.06.04\",\"location\":\"본부\",\"id\":\"lect60\",\"updatedAt\":1718301247300}\n\n"
+lect61: "data: {\"current\":0,\"last\":0,\"stat\":\"%   19/0\",\"manager\":\"노승인\",\"category\":\"공개\",\"title\":\"ISO
+  9001/14001/45001\",\"dday\":\"2021.05.26  ~  2021.05.28\",\"location\":\"본부\",\"id\":\"lect61\",\"updatedAt\":1718301247300}\n\n"
+lect62: "data: {\"current\":0,\"last\":0,\"stat\":\"%   10/0\",\"manager\":\"노승인\",\"category\":\"공개\",\"title\":\"Zero
+  Defect를 위한 IATF\",\"dday\":\"2021.05.26  ~  2021.05.28\",\"location\":\"본부\",\"id\":\"lect62\",\"updatedAt\":1718301247300}\n\n"
+lect63: "data: {\"current\":70,\"last\":70,\"stat\":\"%   16/23\",\"manager\":\"윤대희\",\"category\":\"공개\",\"title\":\"기업
+  경영 쉽게 알기(미니 MBA)\",\"dday\":\"2021.05.26  ~  2021.05.28\",\"location\":\"본부\",\"id\":\"lect63\",\"updatedAt\":1718301247300}\n\n"
+lect64: "data: {\"current\":53,\"last\":53,\"stat\":\"%   16/30\",\"manager\":\"성혜지\",\"category\":\"공개\",\"title\":\"안전관리자보수교육(제조및기타업종)\",\"dday\":\"2021.05.26
+   ~  2021.05.28\",\"location\":\"본부\",\"id\":\"lect64\",\"updatedAt\":1718301247300}\n\n"
+lect65: "data: {\"current\":0,\"last\":0,\"stat\":\"%   0/30\",\"manager\":\"송현주\",\"category\":\"사내\",\"title\":\"인천시
+  현장낭비 제거를 통한 품질코스트\",\"dday\":\"2021.06.03  ~  2021.06.04\",\"location\":\"인천지역본부\",\"id\":\"lect65\",\"updatedAt\":1718301247300}\n\n"
+lect66: "data: {\"current\":0,\"last\":0,\"stat\":\"%   0/30\",\"manager\":\"김현지\",\"category\":\"사내\",\"title\":\"한화(보은공장)
+  세이프티 스킬업\",\"dday\":\"2021.05.21  ~  2021.05.21\",\"location\":\"대전세종충남지역본부\",\"id\":\"lect66\",\"updatedAt\":1718301247300}\n\n"
+lect67: "data: {\"current\":0,\"last\":0,\"stat\":\"%   0/30\",\"manager\":\"김현지\",\"category\":\"사내\",\"title\":\"한화
+  유해화학물질 취급시설 교육\",\"dday\":\"2021.05.24  ~  2021.05.25\",\"location\":\"대전세종충남지역본부\",\"id\":\"lect67\",\"updatedAt\":1718301247301}\n\n"
+lect68: "data: {\"current\":0,\"last\":0,\"stat\":\"%   0/30\",\"manager\":\"김태현\",\"category\":\"사내\",\"title\":\"LG이노텍
+  JMP SPC과정\",\"dday\":\"2021.05.24  ~  2021.05.25\",\"location\":\"대구경북지역본부\",\"id\":\"lect68\",\"updatedAt\":1718301247301}\n\n"
+lect69: "data: {\"current\":0,\"last\":0,\"stat\":\"%   0/20\",\"manager\":\"유은재\",\"category\":\"사내\",\"title\":\"LS일렉트릭_품질신뢰성
+  교육\",\"dday\":\"2021.05.24  ~  2021.05.24\",\"location\":\"충북지역본부\",\"id\":\"lect69\",\"updatedAt\":1718301247301}\n\n"
+lect70: "data: {\"current\":0,\"last\":0,\"stat\":\"%   0/30\",\"manager\":\"이병섭\",\"category\":\"사내\",\"title\":\"금호타이어_품질향상과정(2021)\",\"dday\":\"2021.05.24
+   ~  2021.05.24\",\"location\":\"광주전남제주지역본부\",\"id\":\"lect70\",\"updatedAt\":1718301247301}\n\n"
+lect71: "data: {\"current\":0,\"last\":0,\"stat\":\"%   0/55\",\"manager\":\"김현지\",\"category\":\"사내\",\"title\":\"한국남부발전
+  안전혁신학교\",\"dday\":\"2021.05.24  ~  2021.05.25\",\"location\":\"본부\",\"id\":\"lect71\",\"updatedAt\":1718301247301}\n\n"
+lect72: "data: {\"current\":0,\"last\":0,\"stat\":\"%   0/30\",\"manager\":\"김동연\",\"category\":\"사내\",\"title\":\"남부발전
+  신인천 분임조 교육 (총2차수\",\"dday\":\"2021.05.24  ~  2021.05.26\",\"location\":\"인천지역본부\",\"id\":\"lect72\",\"updatedAt\":1718301247301}\n\n"
+lect73: "data: {\"current\":95,\"last\":95,\"stat\":\"%   19/20\",\"manager\":\"유은재\",\"category\":\"사내\",\"title\":\"스템코
+  WB 교육\",\"dday\":\"2021.05.25  ~  2021.05.26\",\"location\":\"충북지역본부\",\"id\":\"lect73\",\"updatedAt\":1718301247301}\n\n"
+lect74: "data: {\"current\":0,\"last\":0,\"stat\":\"%   0/30\",\"manager\":\"김현지\",\"category\":\"사내\",\"title\":\"풍산
+  관리감독자 안전교육\",\"dday\":\"2021.05.25  ~  2021.05.25\",\"location\":\"울산지역본부\",\"id\":\"lect74\",\"updatedAt\":1718301247301}\n\n"
+lect75: "data: {\"current\":0,\"last\":0,\"stat\":\"%   0/30\",\"manager\":\"이병섭\",\"category\":\"사내\",\"title\":\"금호타이어_품질향상과정(2021)\",\"dday\":\"2021.05.26
+   ~  2021.05.26\",\"location\":\"광주전남제주지역본부\",\"id\":\"lect75\",\"updatedAt\":1718301247301}\n\n"
+lect76: "data: {\"current\":7,\"last\":7,\"stat\":\"%   4/55\",\"manager\":\"김현지\",\"category\":\"사내\",\"title\":\"한국남부발전
+  안전혁신학교\",\"dday\":\"2021.05.26  ~  2021.05.27\",\"location\":\"본부\",\"id\":\"lect76\",\"updatedAt\":1718301247301}\n\n"
+lect77: "data: {\"current\":0,\"last\":0,\"stat\":\"%   0/30\",\"manager\":\"김현지\",\"category\":\"사내\",\"title\":\"풍산
+  관리감독자 안전교육\",\"dday\":\"2021.05.27  ~  2021.05.27\",\"location\":\"울산지역본부\",\"id\":\"lect77\",\"updatedAt\":1718301247301}\n\n"
+lect78: "data: {\"current\":0,\"last\":0,\"stat\":\"%   0/30\",\"manager\":\"이문자\",\"category\":\"사내\",\"title\":\"2021
+  두산메카텍 현장관리자\",\"dday\":\"2021.05.28  ~  2021.05.28\",\"location\":\"경남지역본부\",\"id\":\"lect78\",\"updatedAt\":1718301247301}\n\n"
+lect79: "data: {\"current\":0,\"last\":0,\"stat\":\"%   0/20\",\"manager\":\"유은재\",\"category\":\"사내\",\"title\":\"스템코
+  WB 교육\",\"dday\":\"2021.06.01  ~  2021.06.02\",\"location\":\"충북지역본부\",\"id\":\"lect79\",\"updatedAt\":1718301247301}\n\n"
+lect80: "data: {\"current\":17,\"last\":17,\"stat\":\"%   17/100\",\"manager\":\"김현국\",\"category\":\"기타\",\"title\":\"나도
+  할 수 있다! 하이퍼레저 블록체인\",\"dday\":\"2021.05.29  ~  2021.08.01\",\"location\":\"본부\",\"id\":\"lect80\",\"updatedAt\":1718301247301}\n\n"
+lect81: "data: {\"current\":53,\"last\":53,\"stat\":\"%   53/100\",\"manager\":\"김현국\",\"category\":\"기타\",\"title\":\"블록체인
+  중급 분산신원증명 기획 과정\",\"dday\":\"2021.05.31  ~  2021.07.23\",\"location\":\"본부\",\"id\":\"lect81\",\"updatedAt\":1718301247301}\n\n"
+lect82: "data: {\"current\":57,\"last\":57,\"stat\":\"%   57/100\",\"manager\":\"김현국\",\"category\":\"기타\",\"title\":\"블록체인
+  중급 퍼블릭 응용서비스 개발\",\"dday\":\"2021.05.31  ~  2021.07.23\",\"location\":\"본부\",\"id\":\"lect82\",\"updatedAt\":1718301247301}\n\n"
+lect83: "data: {\"current\":35,\"last\":35,\"stat\":\"%   35/100\",\"manager\":\"김현국\",\"category\":\"기타\",\"title\":\"블록체인
+  고급 이더리움 기반 프로젝트\",\"dday\":\"2021.05.31  ~  2021.07.23\",\"location\":\"본부\",\"id\":\"lect83\",\"updatedAt\":1718301247301}\n\n"
+lect84: "data: {\"current\":42,\"last\":42,\"stat\":\"%   42/100\",\"manager\":\"김현국\",\"category\":\"기타\",\"title\":\"블록체인
+  중급 프라이빗 응용서비스 개발\",\"dday\":\"2021.05.31  ~  2021.07.23\",\"location\":\"본부\",\"id\":\"lect84\",\"updatedAt\":1718301247301}\n\n"
+lect85: "data: {\"current\":97,\"last\":97,\"stat\":\"%   29/30\",\"manager\":\"이선희\",\"category\":\"기타\",\"title\":\"KSA
+  최고경영자세미나\",\"dday\":\"2021.05.21  ~  2021.05.21\",\"location\":\"부산지역본부\",\"id\":\"lect85\",\"updatedAt\":1718301247301}\n\n"
+spread: "data: {\"modified\":\"15.03.2024 09:18\",\"header\":[{\"c1\":\"ID\",\"c2\":\"Months\",\"c3\":null,\"c4\":\"ListMonths\",\"c5\":null,\"c6\":null}],\"rows\":[{\"c1\":1,\"c2\":\"January\",\"c3\":null,\"c4\":\"January\",\"c5\":null,\"c6\":null},{\"c1\":2,\"c2\":\"February\",\"c3\":null,\"c4\":\"February\",\"c5\":null,\"c6\":null},{\"c1\":3,\"c2\":\"March\",\"c3\":null,\"c4\":\"March\",\"c5\":null,\"c6\":null},{\"c1\":4,\"c2\":\"April\",\"c3\":null,\"c4\":\"April\",\"c5\":null,\"c6\":null},{\"c1\":\"\",\"c2\":null,\"c3\":null,\"c4\":\"June\",\"c5\":null,\"c6\":null},{\"c1\":5,\"c2\":\"June\",\"c3\":null,\"c4\":\"July\",\"c5\":null,\"c6\":null},{\"c1\":6,\"c2\":\"July\",\"c3\":null,\"c4\":\"August\",\"c5\":null,\"c6\":null},{\"c1\":7,\"c2\":\"August\",\"c3\":null,\"c4\":\"October\",\"c5\":null,\"c6\":null},{\"c1\":\"\",\"c2\":null,\"c3\":null,\"c4\":\"December\",\"c5\":null,\"c6\":null},{\"c1\":8,\"c2\":\"October\",\"c3\":null,\"c4\":\"\",\"c5\":null,\"c6\":null},{\"c1\":\"\",\"c2\":null,\"c3\":null,\"c4\":\"\",\"c5\":null,\"c6\":null},{\"c1\":9,\"c2\":\"December\",\"c3\":null,\"c4\":\"\",\"c5\":null,\"c6\":null}],\"id\":\"spread\",\"updatedAt\":1718301254507}\n\n"
+buzzwords: "data: {\"items\":[{\"label\":\"Paradigm shift\",\"value\":0},{\"label\":\"Exit
+  strategy\",\"value\":2},{\"label\":\"Web 2.0\",\"value\":5},{\"label\":\"Synergy\",\"value\":11},{\"label\":\"Turn-key\",\"value\":25},{\"label\":\"Leverage\",\"value\":2},{\"label\":\"Pivoting\",\"value\":29},{\"label\":\"Streamlininess\",\"value\":5},{\"label\":\"Enterprise\",\"value\":29}],\"id\":\"buzzwords\",\"updatedAt\":1718301253301}\n\n"
+convergence: "data: {\"points\":[{\"x\":289,\"y\":38},{\"x\":290,\"y\":36},{\"x\":291,\"y\":36},{\"x\":292,\"y\":28},{\"x\":293,\"y\":36},{\"x\":294,\"y\":25},{\"x\":295,\"y\":20},{\"x\":296,\"y\":14},{\"x\":297,\"y\":22},{\"x\":298,\"y\":10}],\"id\":\"convergence\",\"updatedAt\":1718301253301}\n\n"
+valuation: "data: {\"current\":41,\"last\":94,\"id\":\"valuation\",\"updatedAt\":1718301253301}\n\n"
+karma: "data: {\"current\":37887,\"last\":188776,\"id\":\"karma\",\"updatedAt\":1718301253301}\n\n"
+synergy: "data: {\"value\":71,\"id\":\"synergy\",\"updatedAt\":1718301253301}\n\n"
+color_rules: "data: {\"id\":7,\"title_bg_color\":\"#1a5fb4\",\"title_fg_color\":\"#f6f5f4\",\"tail_bg_color_0_25\":\"#a51d2d\",\"tail_bg_color_25_50\":\"#c64600\",\"tail_bg_color_50_75\":\"#e5a50a\",\"tail_bg_color_75_100\":\"#26a269\",\"tail_fg_color_0_25\":\"#000000\",\"tail_fg_color_25_50\":\"#241f31\",\"tail_fg_color_50_75\":\"#3d3846\",\"tail_fg_color_75_100\":\"#5e5c64\",\"header_bg_color\":\"#57e389\",\"header_fg_color\":\"#5e5c64\",\"page_bg_color\":\"#e01b24\",\"page_fg_color\":\"#241f31\",\"created_at\":\"2024-06-13
+  23:16:13 +0530\",\"updated_at\":\"2024-06-13 23:16:13 +0530\",\"id\":\"color_rules\",\"updatedAt\":1718301217535}\n\n"

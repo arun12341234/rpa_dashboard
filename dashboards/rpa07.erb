@@ -1,0 +1,47 @@
+<script type='text/javascript'>
+$(function() {
+	// These settings override the defaults set in application.coffee. You can do this on a per dashboard basis.
+	Dashing.widget_base_dimensions = [370, 320]
+	Dashing.numColumns = 5
+	Dashing.gridsterLayout('[{"col":1,"row":1},{"col":2,"row":1},{"col":3,"row":1},{"col":4,"row":1},{"col":5,"row":1},{"col":1,"row":2},{"col":2,"row":2},{"col":3,"row":2},{"col":4,"row":2},{"col":5,"row":2},{"col":1,"row":3},{"col":2,"row":3},{"col":3,"row":3},{"col":4,"row":3},{"col":5,"row":3}]')
+});
+</script>
+
+<% content_for :title do %>RPA Dashboard<% end %>
+<table data-id="title_header" style="background: #1F4E79;"><tr>
+<td width=15%>
+<div data-view="Textla" data-title="RPA" ></div>
+<td width=8%>
+<sup style="position: relative; top: -10px; left: -60px"><h5>Dashboard</h5></sup>
+<td width=67% align=center>
+<div style="position: relative; left: -100px;" data-view="Textla" data-title="BOT Status"></div>
+<td width=10%>
+<div data-view="Clock4ksa"></div>
+</tr></table>
+
+<div class="gridster">
+  <ul>
+    <!-- 1st row -->
+    <% (91..95).each do |i| %>
+      <li data-row="1" data-col="<%= i %>" data-sizex="1" data-sizey="1"> 
+        <div data-event-click="redirect" data-id="rpa_lect<%= i %>" data-view="RpaWig" data-title="" data-cool="90" data-warm="50"></div>
+      </li>
+    <% end %>
+
+    <!-- 2nd row -->
+    <% (96..100).each do |i| %>
+      <li data-row="2" data-col="<%= i - 5 %>" data-sizex="1" data-sizey="1"> 
+        <div data-event-click="redirect" data-id="rpa_lect<%= i %>" data-view="RpaWig" data-title="" data-cool="90" data-warm="50"></div>
+      </li>
+    <% end %>
+
+    <!-- 3rd row -->
+    <% (101..105).each do |i| %>
+      <li data-row="3" data-col="<%= i - 10 %>" data-sizex="1" data-sizey="1"> 
+        <div data-event-click="redirect" data-id="rpa_lect<%= i %>" data-view="RpaWig" data-title="" data-cool="90" data-warm="50"></div>
+      </li>
+    <% end %>
+  </ul>
+</div>
+<div data-id="color_rules" data-view="UpdateColorValue">
+</div>

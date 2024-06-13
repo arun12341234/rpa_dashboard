@@ -1,0 +1,22 @@
+$background-color: #12b0c5;
+
+.widget-table3 {
+    .table-container {
+        width: 100%;
+        overflow-x: auto; /* Changed to auto */
+        display: flex;
+        justify-content: center;
+    }
+    
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: auto; /* Changed to auto */
+        background-color: $background-color;
+        white-space: nowrap;
+    }
+    
+    th {
+        padding: 8px 12px;
+    }
+}
