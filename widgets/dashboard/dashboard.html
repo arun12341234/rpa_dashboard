@@ -1,7 +1,7 @@
 <div data-bind="value"></div>
 <style>
     .dashboard-container {
-      background: white;
+      background: transparent;
       padding: 20px;
       border-radius: 8px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -22,17 +22,21 @@
     }
     .dashboard-button:hover {
       background-color: #0056b3;
+      
     }
   </style>
-<div class="dashboard-container">
+<div class="dashboard-container" >
     <h1>Welcome to the Dashboard</h1>
     <div class="button-container">
     <a href="/update_color" class="dashboard-button">
         Update Color
     </a>
-    <a href="/logout" class="dashboard-button">
+    <a href="/change_password" class="dashboard-button">
+      change password
+  </a>
+    <button id="logout-button" class="dashboard-button">
         Logout
-    </a>
+    </button>
     </div>
     
   </div>

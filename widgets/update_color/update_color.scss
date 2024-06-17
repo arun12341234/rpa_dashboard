@@ -5,7 +5,8 @@ $background-color:  #00C176;
 // }
 
 .widget-update-color {
-
+        background-color: transparent;
+        padding: 40px;
         h1, h2 {
           text-align: center;
           margin-bottom: 20px;
@@ -28,6 +29,7 @@ $background-color:  #00C176;
           padding: 10px;
           border: 1px solid #ccc;
           border-radius: 4px;
+          font-size: 20px;
         }
         .form-group input[type="color"] {
           padding: 0;
@@ -40,12 +42,17 @@ $background-color:  #00C176;
           border: none;
           cursor: pointer;
           transition: background-color 0.3s;
-          width: 50%;
+          width: 500px;
           padding: 10px;
           font-size: 25px;
         }
         .form-group input[type="submit"]:hover {
           background-color: #0056b3;
+        }
+        #update-color-message{
+          margin-top: 15px;
+          text-align: center;
+          color: rgb(76, 185, 66);
         }
       }
       

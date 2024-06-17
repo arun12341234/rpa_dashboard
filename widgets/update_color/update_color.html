@@ -1,5 +1,5 @@
-<div class="updatecolor">
-    <h2>Update Color Rules</h2>
+<div class="updatecolor" >
+    <h2 style="font-size: 40px;">Update Color</h2>
     <form id="updatecolor-form">
       <div class="form-group">
         <label for="title-bg-color">Title Background Color</label>
@@ -10,42 +10,66 @@
         <input type="color" id="title-fg-color" name="title_fg_color" value="">
       </div>
   
-      <h2>Tail Background Color</h2>
-      <div class="form-group">
-        <label for="tail-bg-color-0-25">0 < 25%</label>
+      <h2>Tail Color Rule</h2>
+
+      <div class="form-group rule-group" >
+        <label>Rule 1</label>
+        <input type="number" id="rule-1-min" name="rule_1_min" value="">
+        <span>to</span>
+        <input type="number" id="rule-1-max" name="rule_1_max" value="">
+        <label for="tail-bg-color-0-25">Background Color</label>
         <input type="color" id="tail-bg-color-0-25" name="tail_bg_color_0_25" value="">
-      </div>
-      <div class="form-group">
-        <label for="tail-bg-color-25-50">25 < 50%</label>
-        <input type="color" id="tail-bg-color-25-50" name="tail_bg_color_25_50" value="">
-      </div>
-      <div class="form-group">
-        <label for="tail-bg-color-50-75">50 < 75%</label>
-        <input type="color" id="tail-bg-color-50-75" name="tail_bg_color_50_75" value="">
-      </div>
-      <div class="form-group">
-        <label for="tail-bg-color-75-100">75 < 100%</label>
-        <input type="color" id="tail-bg-color-75-100" name="tail_bg_color_75_100" value="">
-      </div>
-  
-      <h2>Tail Foreground Color</h2>
-      <div class="form-group">
-        <label for="tail-fg-color-0-25">0 < 25%</label>
+        <label for="tail-fg-color-0-25">Foreground Color</label>
         <input type="color" id="tail-fg-color-0-25" name="tail_fg_color_0_25" value="">
+  
       </div>
-      <div class="form-group">
-        <label for="tail-fg-color-25-50">25 < 50%</label>
+
+ 
+      <div class="form-group rule-group">
+        <label>Rule 2</label>
+        <input type="number" id="rule-2-min" name="rule_2_min" value="">
+        <span>to</span>
+        <input type="number" id="rule-2-max" name="rule_2_max" value="">
+        <label for="tail-bg-color-25-50">Background Color</label>
+        <input type="color" id="tail-bg-color-25-50" name="tail_bg_color_25_50" value="">
+        <label for="tail-fg-color-25-50">Foreground Color <label> 
         <input type="color" id="tail-fg-color-25-50" name="tail_fg_color_25_50" value="">
+    
       </div>
-      <div class="form-group">
-        <label for="tail-fg-color-50-75">50 < 75%</label>
-        <input type="color" id="tail-fg-color-50-75" name="tail_fg_color_50_75" value="">
+
+
+
+
+      <div class="form-group rule-group">
+        <label>Rule 3</label>
+        <input type="number" id="rule-3-min" name="rule_3_min" value="">
+        <span>to</span>
+        <input type="number" id="rule-3-max" name="rule_3_max" value="">
+          <label for="tail-bg-color-50-75">Background Color</label>
+          <input type="color" id="tail-bg-color-50-75" name="tail_bg_color_50_75" value="">
+          <label for="tail-fg-color-50-75">Foreground Color</label>
+          <input type="color" id="tail-fg-color-50-75" name="tail_fg_color_50_75" value="">
       </div>
-      <div class="form-group">
-        <label for="tail-fg-color-75-100">75 < 100%</label>
-        <input type="color" id="tail-fg-color-75-100" name="tail_fg_color_75_100" value="">
+
+
+
+      <div class="form-group rule-group">
+        <label>Rule 4</label>
+        <input type="number" id="rule-4-min" name="rule_4_min" value="">
+        <span>to</span>
+        <input type="number" id="rule-4-max" name="rule_4_max" value="">
+          <label for="tail-bg-color-75-100">Background Color</label>
+          <input type="color" id="tail-bg-color-75-100" name="tail_bg_color_75_100" value="">
+          <label for="tail-fg-color-75-100">Foreground Color</label>
+          <input type="color" id="tail-fg-color-75-100" name="tail_fg_color_75_100" value="">
       </div>
-      <h2>Sub-Page Update Color Rules</h2>
+
+
+
+
+
+
+      <h2>Sub-Page Update Color</h2>
       <div class="form-group">
         <label for="header-bg-color">Header Background Color</label>
         <input type="color" id="header-bg-color" name="header_bg_color" value="">
@@ -63,8 +87,9 @@
         <input type="color" id="page-fg-color" name="page_fg_color" value="">
       </div>
       <div class="form-group">
-        <input type="submit" value="Submit">
+        <input type="submit" value="Update Color">
       </div>
     </form>
+    <div id="update-color-message"></div>
   </div>
   

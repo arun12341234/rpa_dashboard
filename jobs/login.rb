@@ -57,11 +57,13 @@ post '/check_session' do
 end
 
 
-# post '/logout' do
-#   session.clear
-#   puts session[:user_id]
-#   erb :login
-# end
+post '/logout' do
+  content_type :json
+  puts session
+  session.clear
+  puts session
+  { success: true, message: "Logged out successfully" }.to_json
+end
 
 
 

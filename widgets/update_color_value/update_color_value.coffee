@@ -21,6 +21,16 @@ class Dashing.UpdateColorValue extends Dashing.Widget
     $('#header-fg-color').val(data.header_fg_color);
     $('#page-bg-color').val(data.page_bg_color);
     $('#page-fg-color').val(data.page_fg_color);
+
+    $('#rule-1-min').val(data.rule_1_min);
+    $('#rule-1-max').val(data.rule_1_max);
+    $('#rule-2-min').val(data.rule_2_min);
+    $('#rule-2-max').val(data.rule_2_max);
+    $('#rule-3-min').val(data.rule_3_min);
+    $('#rule-3-max').val(data.rule_3_max);
+    $('#rule-4-min').val(data.rule_4_min);
+    $('#rule-4-max').val(data.rule_4_max);
+    
     # Handle incoming data
     # You can access the html node of this widget with `@node`
     # Example: $(@node).fadeOut().fadeIn() will make the node flash each time data comes in.
@@ -30,17 +40,17 @@ class Dashing.UpdateColorValue extends Dashing.Widget
     thElements = $(selector5)
     thElements.each (index, element) ->
 
-      console.log(
-        element
-      )
+      # console.log(
+      #   element
+      # )
       $(element).css "background-color", data.title_bg_color
     selector6 = "table[data-id='title_header'] div"
     thdElements = $(selector6)
     thdElements.each (index, element) ->
 
-      console.log(
-        element
-      )
+      # console.log(
+      #   element
+      # )
       $(element).css "background-color", data.title_bg_color
       $(element).css "color", data.title_fg_color
 
@@ -48,35 +58,35 @@ class Dashing.UpdateColorValue extends Dashing.Widget
     thdElements = $(selector7)
     thdElements.each (index, element) ->
 
-      console.log(
-        element
-      )
+      # console.log(
+      #   element
+      # )
       $(element).css "color", data.title_fg_color
 
     selector8 = "table[data-id='title_header'] h5"
     tdhElements = $(selector8)
     tdhElements.each (index, element) ->
 
-      console.log(
-        element
-      )
+      # console.log(
+      #   element
+      # )
       $(element).css "color", data.title_fg_color
     selector9 = "table[data-id='table3header']"
     tdhhElements = $(selector9)
     tdhhElements.each (index, element) ->
 
-      console.log(
-        element
-      )
+      # console.log(
+      #   element
+      # )
       $(element).css "background-color", data.header_bg_color
       $(element).css "color", data.header_fg_color
     selector10 = "table[data-id='table2page']"
     tdhhElements = $(selector10)
     tdhhElements.each (index, element) ->
 
-      console.log(
-        element
-      )
+      # console.log(
+      #   element
+      # )
       $(element).css "background-color", data.page_bg_color
       $(element).css "color", data.page_fg_color
 
