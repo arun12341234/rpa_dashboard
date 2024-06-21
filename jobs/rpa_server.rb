@@ -13,10 +13,15 @@ $bot_name_indexes = {}
 # Define the task to fetch data and update the dashboard
 def fetch_and_update_dashboard2
   client = Mysql2::Client.new(
-    host: 'localhost',
-    username: 'root',
-    password: 'Password@123',
-    database: 'RPA_Dashboard'
+    # host: 'localhost',
+    # username: 'root',
+    # password: 'Password@123',
+    # database: 'RPA_Dashboard'
+    host: ENV['DB_HOST'],
+    username: ENV['DB_USERNAME'],
+    password: ENV['DB_PASSWORD'],
+    database: ENV['DB_DATABASE'],
+    port: ENV['DB_PORT']
   )
 
   # Fetch data from MySQL

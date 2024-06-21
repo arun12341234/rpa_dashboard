@@ -5,15 +5,32 @@ require 'rufus-scheduler'
 
 # Create a scheduler
 scheduler = Rufus::Scheduler.new
+# helpers "mysql_operations.rb";
+require_relative 'mysql_operations'
+
 
 # Define the task to fetch data and update the dashboard
 def fetch_and_update_dashboard
+  # Debugging: Print environment variables
+  puts "DB_HOST: #{ENV['DB_HOST']}"
+  puts "DB_USERNAME: #{ENV['DB_USERNAME']}"
+  puts "DB_PASSWORD: #{ENV['DB_PASSWORD']}"
+  puts "DB_DATABASE: #{ENV['DB_DATABASE']}"
+  puts "DB_PORT: #{ENV['DB_PORT']}"
   client = Mysql2::Client.new(
-    host: 'localhost',
-    username: 'root',
-    password: 'Password@123',
-    database: 'RPA_Dashboard'
+    # host: 'localhost',
+    # username: 'root',
+    # password: 'Password@123',
+    # database: 'RPA_Dashboard'
+    host: "#{ENV['DB_HOST']}",
+    username: ENV['DB_USERNAME'],
+    password: ENV['DB_PASSWORD'],
+    database: ENV['DB_DATABASE'],
+    port: ENV['DB_PORT']
   )
+  # Debugging: Ensure the client is connected and using the correct database
+  db_selected = client.query('SELECT DATABASE()').first
+  puts "Database selected: #{db_selected}"
 
   # Fetch data from MySQL
   query = "SELECT bd.*
@@ -69,10 +86,15 @@ def fetch_and_update_dashboard
 
   # Create a MySQL client instance
   client = Mysql2::Client.new(
-      :host => 'localhost',
-      :username => 'root',
-      :password => 'Password@123',
-      :database => 'RPA_Dashboard'
+      # :host => 'localhost',
+      # :username => 'root',
+      # :password => 'Password@123',
+      # :database => 'RPA_Dashboard'
+      host: ENV['DB_HOST'],
+      username: ENV['DB_USERNAME'],
+      password: ENV['DB_PASSWORD'],
+      database: "#{ENV['DB_DATABASE']}",
+      port: ENV['DB_PORT']
     )
   
   # Query to get the last row from color_rules

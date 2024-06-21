@@ -85,9 +85,13 @@ post '/insert_bot_status' do
     #     :execution_data => request_payload['execution_data'],
     # }
     
-
+    # host: ENV['DB_HOST'],
+    # username: ENV['DB_USERNAME'],
+    # password: ENV['DB_PASSWORD'],
+    # database: ENV['DB_DATABASE'],
+    # port: ENV['DB_PORT']
     # Insert data into MySQL database
-    insert_data('localhost', 'root', 'Password@123', 'RPA_Dashboard','Bot_Status', data_to_insert)
+    insert_data(ENV['DB_HOST'], ENV['DB_USERNAME'], ENV['DB_PASSWORD'], ENV['DB_DATABASE'],'Bot_Status', data_to_insert)
     { message: 'Data received and inserted successfully' }.to_json
 end
 
@@ -110,7 +114,8 @@ post '/insert_bot_details' do
     end
     puts data_to_insert
     # Insert data into MySQL database
-    insert_data('localhost', 'root', 'Password@123', 'RPA_Dashboard','Bot_Details', data_to_insert)
+    insert_data(ENV['DB_HOST'], ENV['DB_USERNAME'], ENV['DB_PASSWORD'], ENV['DB_DATABASE'],'Bot_Details', data_to_insert)
+    # insert_data('localhost', 'root', 'Password@123', 'RPA_Dashboard','Bot_Details', data_to_insert)
     { message: 'Data received and inserted successfully' }.to_json
 end
 

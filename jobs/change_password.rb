@@ -18,12 +18,23 @@ post '/change_password' do
     status 400
     return { error: 'New password and confirm password do not match' }.to_json
   end
+  # Debugging: Print environment variables
+  puts "DB_HOST: #{ENV['DB_HOST']}"
+  puts "DB_USERNAME: #{ENV['DB_USERNAME']}"
+  puts "DB_PASSWORD: #{ENV['DB_PASSWORD']}"
+  puts "DB_DATABASE: #{ENV['DB_DATABASE']}"
+  puts "DB_PORT: #{ENV['DB_PORT']}"
 
   client = Mysql2::Client.new(
-      :host => 'localhost',
-      :username => 'root',
-      :password => 'Password@123',
-      :database => 'RPA_Dashboard'
+      # :host => 'localhost',
+      # :username => 'root',
+      # :password => 'Password@123',
+      # :database => 'RPA_Dashboard'
+      host: ENV['DB_HOST'],
+      username: ENV['DB_USERNAME'],
+      password: ENV['DB_PASSWORD'],
+      database: ENV['DB_DATABASE'],
+      port: ENV['DB_PORT']
   )
 
   result = client.query("SELECT password FROM users WHERE username = '#{user_id}' LIMIT 1")

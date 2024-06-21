@@ -33,10 +33,15 @@ post '/update_color' do
   begin
     # Connect to MySQL server
     client = Mysql2::Client.new(
-        :host => 'localhost',
-        :username => 'root',
-        :password => 'Password@123',
-        :database => 'RPA_Dashboard'
+        # :host => 'localhost',
+        # :username => 'root',
+        # :password => 'Password@123',
+        # :database => 'RPA_Dashboard'
+        host: ENV['DB_HOST'],
+        username: ENV['DB_USERNAME'],
+        password: ENV['DB_PASSWORD'],
+        database: ENV['DB_DATABASE'],
+        port: ENV['DB_PORT']
     )
 
     # Insert data into the table

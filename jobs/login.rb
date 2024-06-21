@@ -9,7 +9,6 @@ set :session_secret, 'super secret'
 enable :sessions
 
 # Load the helpers
-require_relative 'helpers'
 
 
 post '/login' do
@@ -23,10 +22,15 @@ post '/login' do
   password = request_payload["password"]
 
   client = Mysql2::Client.new(
-    :host => 'localhost',
-    :username => 'root',
-    :password => 'Password@123',
-    :database => 'RPA_Dashboard'
+    # :host => 'localhost',
+    # :username => 'root',
+    # :password => 'Password@123',
+    # :database => 'RPA_Dashboard'
+    host: ENV['DB_HOST'],
+    username: ENV['DB_USERNAME'],
+    password: ENV['DB_PASSWORD'],
+    database: ENV['DB_DATABASE'],
+    port: ENV['DB_PORT']
   )
 
   # Query to check if the user exists
