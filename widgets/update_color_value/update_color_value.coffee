@@ -4,7 +4,7 @@ class Dashing.UpdateColorValue extends Dashing.Widget
     # This is fired when the widget is done being rendered
 
   onData: (data) ->
-    console.log("UpdateColorValue", data)
+    # console.log("UpdateColorValue", data)
     $('#title-bg-color').val(data.title_bg_color);
     $('#title-fg-color').val(data.title_fg_color);
 
@@ -40,17 +40,13 @@ class Dashing.UpdateColorValue extends Dashing.Widget
     thElements = $(selector5)
     thElements.each (index, element) ->
 
-      # console.log(
-      #   element
-      # )
+
       $(element).css "background-color", data.title_bg_color
     selector6 = "table[data-id='title_header'] div"
     thdElements = $(selector6)
     thdElements.each (index, element) ->
 
-      # console.log(
-      #   element
-      # )
+
       $(element).css "background-color", data.title_bg_color
       $(element).css "color", data.title_fg_color
 
@@ -58,35 +54,27 @@ class Dashing.UpdateColorValue extends Dashing.Widget
     thdElements = $(selector7)
     thdElements.each (index, element) ->
 
-      # console.log(
-      #   element
-      # )
+
       $(element).css "color", data.title_fg_color
 
     selector8 = "table[data-id='title_header'] h5"
     tdhElements = $(selector8)
     tdhElements.each (index, element) ->
 
-      # console.log(
-      #   element
-      # )
+
       $(element).css "color", data.title_fg_color
     selector9 = "table[data-id='table3header']"
     tdhhElements = $(selector9)
     tdhhElements.each (index, element) ->
 
-      # console.log(
-      #   element
-      # )
+
       $(element).css "background-color", data.header_bg_color
       $(element).css "color", data.header_fg_color
     selector10 = "table[data-id='table2page']"
     tdhhElements = $(selector10)
     tdhhElements.each (index, element) ->
 
-      # console.log(
-      #   element
-      # )
+
       $(element).css "background-color", data.page_bg_color
       $(element).css "color", data.page_fg_color
 

@@ -2,71 +2,175 @@ $background-color:  #00C176;
 
 .widget-login {
     // background-color: $background-color;
+/* Global styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Form container styles */
+.login-container {
+  max-width: 400px;
+  width: 100%;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-sizing: border-box; /* Ensures padding is included in width calculation */
+}
+
+/* Form styles */
+.custom-form {
+  text-align: center;
+}
+
+.login-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  text-align: left;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+.form-control {
+  width: calc(100% - 20px); /* Adjust width to account for padding */
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box; /* Ensures padding is included in width calculation */
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: #85b7d9;
+  box-shadow: 0 0 5px #85b7d9;
+}
+
+.error-message {
+  color: #d9534f;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.btn-primary {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.btn-primary:hover {
+  background-color: #45a049;
+}
+
+.btn-block {
+  width: 100%;
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+  .login-container {
+    padding: 10px;
+  }
+  .form-control {
+    font-size: 14px;
+  }
+  .btn-primary {
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+}
 
 
-    .login-container {
-        max-width: 600px;
-        margin: 50px auto;
-        padding: 20px;
-        background: #f7f7f7;
-        border: 1px solid #ddd;
-        border-radius: 8px;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        align-items: center; /* Center the content horizontally */
-      }
+    // .login-container {
+    //     max-width: 600px;
+    //     margin: 50px auto;
+    //     padding: 20px;
+    //     background: #f7f7f7;
+    //     border: 1px solid #ddd;
+    //     border-radius: 8px;
+    //     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    //     text-align: center;
+    //     display: flex;
+    //     flex-direction: column;
+    //     align-items: center; /* Center the content horizontally */
+    //   }
       
-      .login-title {
-        margin-bottom: 20px;
-        font-size: 24px;
-        font-weight: bold;
-        color: #333;
-      }
+    //   .login-title {
+    //     margin-bottom: 20px;
+    //     font-size: 24px;
+    //     font-weight: bold;
+    //     color: #333;
+    //   }
       
-      .form-group {
-        width: 100%; /* Ensure form groups take full width */
-        margin-bottom: 15px;
-        display: flex;
-        flex-direction: column;
-        align-items: center; /* Center the input fields */
-      }
+    //   .form-group {
+    //     width: 100%; /* Ensure form groups take full width */
+    //     margin-bottom: 15px;
+    //     display: flex;
+    //     flex-direction: column;
+    //     align-items: center; /* Center the input fields */
+    //   }
       
-      .form-control {
-        width: 100%; /* Ensure the input fields take full width of the form group */
-        padding: 10px 12px; /* Add padding to the input fields */
-        font-size: 16px;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        box-sizing: border-box; /* Ensure padding does not affect the total width */
-      }
+    //   .form-control {
+    //     width: 100%; /* Ensure the input fields take full width of the form group */
+    //     padding: 10px 12px; /* Add padding to the input fields */
+    //     font-size: 16px;
+    //     border: 1px solid #ccc;
+    //     border-radius: 4px;
+    //     box-sizing: border-box; /* Ensure padding does not affect the total width */
+    //   }
       
-      .form-control:focus {
-        border-color: #007bff;
-        outline: none;
-      }
+    //   .form-control:focus {
+    //     border-color: #007bff;
+    //     outline: none;
+    //   }
       
-      .btn {
-        padding: 10px 15px;
-        font-size: 16px;
-        border: none;
-        border-radius: 4px;
-        background-color: #007bff;
-        color: #fff;
-        cursor: pointer;
-        width: 100%; /* Ensure the button takes full width */
-      }
+    //   .btn {
+    //     padding: 10px 15px;
+    //     font-size: 16px;
+    //     border: none;
+    //     border-radius: 4px;
+    //     background-color: #007bff;
+    //     color: #fff;
+    //     cursor: pointer;
+    //     width: 100%; /* Ensure the button takes full width */
+    //   }
       
-      .btn:hover {
-        background-color: #0056b3;
-      }
+    //   .btn:hover {
+    //     background-color: #0056b3;
+    //   }
       
-      .error-message {
-        color: #e74c3c;
-        font-size: 14px;
-        margin-bottom: 15px;
-      }
+    //   .error-message {
+    //     color: #e74c3c;
+    //     font-size: 14px;
+    //     margin-bottom: 15px;
+    //   }
       
       
 }

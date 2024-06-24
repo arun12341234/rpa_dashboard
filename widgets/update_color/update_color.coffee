@@ -2,7 +2,7 @@ class Dashing.UpdateColor extends Dashing.Widget
 
   ready: ->
     $.ajax
-      url: '/get_current_user'
+      url: '/post_option'
       type: 'POST'
       dataType: 'json'
       success: (response) ->
@@ -19,17 +19,17 @@ class Dashing.UpdateColor extends Dashing.Widget
 
     $('#updatecolor-form').on 'submit', (event) ->
       event.preventDefault()
-      console.log($(this).serialize(),'Colors updated successfully')
+      console.log($(this).serialize(),'Color Settings updated successfully')
       $.ajax
         url: '/update_color'
         type: 'POST'
         data: $(this).serialize()
         success: (response) ->
-          $('#update-color-message').text('Colors updated successfully').css('color', 'green')
+          $('#update-color-message').text('Colors changed successfully').css('color', 'green')
           console.log('Colors updated successfully')
           # window.location.href = '/dashboard'  # Redirect to the dashboard or another appropriate page after processing
         error: (xhr, status, error) ->
-          console.error("Error updating colors:", error)
+          console.error("Error changing colors:", error)
 
   onData: (data) ->
     console.log(data);

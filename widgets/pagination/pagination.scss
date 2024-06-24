@@ -1,0 +1,23 @@
+.widget-pagination {
+ 
+        .pagination-1 {
+          display: flex;
+          list-style: none;
+          padding: 0;
+          justify-content: center;
+      
+          li {
+            margin: 0 5px;
+            cursor: pointer;
+            padding: 5px 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+          }
+      
+          .active {
+            font-weight: bold;
+            background-color: #f0f0f0;
+          }
+        }
+      
+}

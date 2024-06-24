@@ -1,0 +1,59 @@
+.widget-tail-delete {
+    background: #2C3E50; // Dark Blue background
+    color: #ECF0F1; // Light Grey text
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+    .widget-title {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 15px;
+      color: #E74C3C; // Red title
+      text-align: center;
+    }
+  
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  
+      select {
+        width: 100%;
+        max-width: 300px;
+        padding: 10px;
+        font-size: 16px;
+        margin-bottom: 15px;
+        border: 1px solid #BDC3C7; // Grey border
+        border-radius: 5px;
+        background: #34495E; // Darker background for select
+        color: #ECF0F1; // Light Grey text
+        outline: none;
+        appearance: none;
+  
+        &:focus {
+          border-color: #E74C3C; // Red border on focus
+        }
+      }
+  
+      .submit-button {
+        background: #E74C3C; // Red background
+        color: #ECF0F1; // Light Grey text
+        padding: 10px 20px;
+        font-size: 16px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background 0.3s ease;
+  
+        &:hover {
+          background: #C0392B; // Darker Red on hover
+        }
+      }
+    }
+  
+    #update-color-message{
+      margin-top: 15px;
+      text-align: center;
+    }
+}

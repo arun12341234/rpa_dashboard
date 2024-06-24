@@ -35,13 +35,13 @@ class Dashing.RpaWig extends Dashing.Widget
         console.log("not exist")
     
   updateColor: (data) ->
-    console.log('New data received:',data, data.color_rules)
+    # console.log('New data received:',data, data.color_rules)
     selector = "div[data-id='" + data.dataid + "']"
     rpaElements = $(selector)
     rpaElements.each (index, element) ->
-      console.log(
-        element
-      )
+      # console.log(
+      #   element
+      # )
 
       current = data.current
       if data.color_rules.rule_1_min < current < data.color_rules.rule_1_max
@@ -57,9 +57,7 @@ class Dashing.RpaWig extends Dashing.Widget
     h1Elements = $(selector1)
     h1Elements.each (index, element) ->
 
-      console.log(
-        element
-      )
+
       current = data.current
       if data.color_rules.rule_1_min < current < data.color_rules.rule_1_max
         $(element).css "color", data.color_rules.tail_fg_color_0_25
@@ -74,9 +72,7 @@ class Dashing.RpaWig extends Dashing.Widget
     h4Elements = $(selector2)
     h4Elements.each (index, element) ->
 
-      console.log(
-        element
-      )
+
       current = data.current
       if data.color_rules.rule_1_min < current < data.color_rules.rule_1_max
         $(element).css "color", data.color_rules.tail_fg_color_0_25
@@ -91,9 +87,7 @@ class Dashing.RpaWig extends Dashing.Widget
     h4sElements = $(selector3)
     h4sElements.each (index, element) ->
 
-      console.log(
-        element
-      )
+
       current = data.current
       if data.color_rules.rule_1_min < current < data.color_rules.rule_1_max
         $(element).css "color", data.color_rules.tail_fg_color_0_25
@@ -109,9 +103,7 @@ class Dashing.RpaWig extends Dashing.Widget
     sElements = $(selector4)
     sElements.each (index, element) ->
 
-      console.log(
-        element
-      )
+
       current = data.current
       if data.color_rules.rule_1_min < current < data.color_rules.rule_1_max
         $(element).css "color", data.color_rules.tail_fg_color_0_25

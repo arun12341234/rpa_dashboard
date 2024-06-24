@@ -42,6 +42,7 @@ def fetch_and_update_dashboard
             ) max_ids
             ON bd.column1 = max_ids.column1 AND bd.id = max_ids.max_id;"  # Replace 'Bot_Data' with the name of your table
   results = client.query(query)
+  puts results
 
   # Define an empty array to store the fetched data
   data = []
@@ -49,11 +50,13 @@ def fetch_and_update_dashboard
 
   # Define a hash to keep track of the index for each bot_name
   bot_name_indexes = {}
+  bot_name_page = {}
   index = 0
+  index_page = 0
 
   # Iterate over the results and populate the data array with additional logic
   results.each do |row|
-    # puts row
+    
     bot_name = row['column1'].split('::=').last.strip
     # puts bot_name
     # Check if the bot_name is already in the dictionary
@@ -64,6 +67,11 @@ def fetch_and_update_dashboard
       bot_name_indexes[bot_name] = index+1  # Assign a new index
       index += 1
     end
+
+    bot_name_page[bot_name] = index_page+1  # Assign a new index
+    index_page += 1
+    
+  
     dataid = "rpa_lect#{bot_name_indexes[bot_name]}"
     comp_record = row['column2'].split('::=').last.strip
     total_record = row['column3'].split('::=').last.strip
@@ -77,9 +85,11 @@ def fetch_and_update_dashboard
       column2: comp_record,
       percentage: percentage.round
     }
-
   end
-
+  # puts bot_name_page
+  send_event("pagination", bot_name_page)
+  send_event("tail_widget", bot_name_page)
+  
   # Close the database connection
   client.close
 
