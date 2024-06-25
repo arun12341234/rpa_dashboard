@@ -23,7 +23,17 @@ class Dashing.ChangePassword extends Dashing.Widget
       confirmPassword = $('#confirm_password').val()
 
       if newPassword != confirmPassword
-        $('#change-password-message').text('New password and confirm password do not match').css('color', 'red')
+        console.log("Error fetching current user:")
+        # $('#change-password-message').text('New password and confirm password do not match').css('color', 'red')
+        $('#change-password-message').text("New password and confirm password do not match").css({
+          'background-color': 'red',
+          'display': 'block' 
+        });
+        setTimeout ->
+          $('#change-password-message').text('').css({
+            'display': 'none' 
+          })  # Hide the message after 5 seconds
+        , 5000  # 5000 milliseconds = 5 seconds
         return
 
       $.ajax
@@ -31,11 +41,30 @@ class Dashing.ChangePassword extends Dashing.Widget
         type: 'POST'
         data: form.serialize()
         success: (response) ->
-          $('#change-password-message').text('Password changed successfully').css('color', 'green')
+          # $('#change-password-message').text('Password changed successfully').css('color', 'green')
           console.log('Password changed successfully')
+          $('#change-password-message').text('Password changed successfully').css({
+            'background-color': 'green',
+            'display': 'block' 
+          });
+          console.log('Colors updated successfully')
+          setTimeout ->
+            $('#change-password-message').text('').css({
+              'display': 'none' 
+            })  # Hide the message after 5 seconds
+          , 5000  # 5000 milliseconds = 5 seconds
         error: (xhr, status, error) ->
-          $('#change-password-message').text('Error changing password: ' + xhr.responseJSON.error).css('color', 'red')
-          console.error("Error changing password:", error)
+          console.log(JSON.parse(xhr.responseText).error)
+          $('#change-password-message').text(JSON.parse(xhr.responseText).error).css({
+            'background-color': 'red',
+            'display': 'block' 
+          });
+          console.log(JSON.parse(xhr.responseText).error)
+          setTimeout ->
+            $('#change-password-message').text('').css({
+              'display': 'none' 
+            })  # Hide the message after 5 seconds
+          , 5000  # 5000 milliseconds = 5 seconds
 
   onData: (data) ->
     console.log('New data received:', data)

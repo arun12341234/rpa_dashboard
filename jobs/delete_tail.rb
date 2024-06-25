@@ -4,20 +4,47 @@ require 'mysql2'
 
 require 'yaml'
 
-# Method to clear the history.yaml file
-def clear_history_file(file_path)
-  File.open(file_path, 'w') do |file|
-    file.write(YAML.dump([]))  # Write an empty array as YAML to the file
-  end
-  puts "History file #{file_path} cleared successfully."
-rescue StandardError => e
-  puts "Error clearing history file: #{e.message}"
-end
+# require 'yaml'
+
+# Method to clear the history.yml file
+# def clear_history_file
+#   history_file = 'history.yml'
+
+#   # Check if the file exists
+#   if File.exist?(history_file)
+#     # Load existing history or initialize if empty
+#     history = YAML.load_file(history_file)
+#     # puts history.keys
+#     for entry_key in history.keys
+#       # Check if the entry exists
+#       if history.key?(entry_key)
+#         puts entry_key
+#         puts history[entry_key] #data: {"id":"tail_widget","updatedAt":1719299701056}
+#         File.open(history_file, 'w') { |f| YAML.dump({}, f) }
+
+#         # # Remove the entry
+#         # history.delete(entry_key)
+
+#         # # Save the updated history
+#         # File.open(history_file, 'w') { |f| f.write(history.to_yaml) }
+
+#         puts "Entry #{entry_key} cleared successfully from history file."
+#       else
+#         puts "Entry #{entry_key} does not exist in history file."
+#       end
+#     end
+#     puts "History file #{history_file} cleared successfully."
+#   else
+#     puts "History file #{history_file} does not exist."
+#   end
+# end
+
+# # Schedule the job to run once
+# SCHEDULER.in '1s' do
+#   clear_history_file
+# end
 
 
-
-history_file_path = 'history.yml'
-clear_history_file(history_file_path)
 
 
 
@@ -49,6 +76,7 @@ post '/post_option' do
     result1 = client.query(delete_query1)
     # Log success message
     puts "Deleted rows where column1 LIKE '#{selectedOption}'"
+    # clear_history_file()
 
     # Return success response
     { success: true, message: "Tail Deleted successfully" }.to_json

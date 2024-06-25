@@ -25,8 +25,17 @@ class Dashing.UpdateColor extends Dashing.Widget
         type: 'POST'
         data: $(this).serialize()
         success: (response) ->
-          $('#update-color-message').text('Colors changed successfully').css('color', 'green')
+          $('#update-color-message').text('Colors changed successfully').css({
+            'background-color': 'green',
+            'display': 'block' 
+          });
           console.log('Colors updated successfully')
+          setTimeout ->
+            $('#update-color-message').text('').css({
+              'display': 'none' 
+            })  # Hide the message after 5 seconds
+          , 5000  # 5000 milliseconds = 5 seconds
+        
           # window.location.href = '/dashboard'  # Redirect to the dashboard or another appropriate page after processing
         error: (xhr, status, error) ->
           console.error("Error changing colors:", error)
