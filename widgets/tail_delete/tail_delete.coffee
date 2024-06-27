@@ -30,7 +30,7 @@ class Dashing.TailDelete extends Dashing.Widget
         success: (response) ->
           console.log(response)
           if response.success
-            $('#update-color-message').html("<p>#{response.message}</p><p>Deleting........!</p><p>This may take 30 seconds</p>").css({
+            $('#update-color-message').html("<p>Deleting........!</p><p>This may take 30 seconds</p>").css({
               'background-color': 'green',
               'display': 'block' 
             });

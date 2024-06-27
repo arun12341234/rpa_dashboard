@@ -69,7 +69,7 @@ post '/post_option' do
     # Construct the SQL DELETE statement with LIKE operator
     delete_query = "DELETE FROM Bot_Status WHERE column1 LIKE '%#{selectedOption}'"
     # Execute the delete query with parameter array
-    # result = client.query(delete_query)
+    result = client.query(delete_query)
     # Construct the SQL DELETE statement with LIKE operator
     # delete_query1 = "DELETE FROM Bot_Details WHERE column1 LIKE '%#{selectedOption}'"
     # Execute the delete query with parameter array
