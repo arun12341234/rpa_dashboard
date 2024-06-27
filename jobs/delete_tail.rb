@@ -74,6 +74,11 @@ post '/post_option' do
     delete_query1 = "DELETE FROM Bot_Details WHERE column1 LIKE '%#{selectedOption}'"
     # Execute the delete query with parameter array
     result1 = client.query(delete_query1)
+    135.times do |i|
+      puts "Iteration #{i + 1}"
+      send_event "rpa_lect#{i + 1}", {}
+      # Your loop body code here
+    end
     # Log success message
     puts "Deleted rows where column1 LIKE '#{selectedOption}'"
     # clear_history_file()
@@ -88,3 +93,5 @@ post '/post_option' do
     { error: "Error: #{e.message}" }.to_json
   end
 end
+
+# send_event "rpa_lect#{bot_name_indexes[bot_name]}", {}

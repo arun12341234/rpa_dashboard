@@ -1,0 +1,196 @@
+---
+pagination: "data: {\"AR08\":1,\"AR09\":2,\"AR010\":3,\"AR011\":4,\"AR012\":5,\"AR013\":6,\"AR014\":7,\"AR015\":8,\"id\":\"pagination\",\"updatedAt\":1719491184000}\n\n"
+tail_widget: "data: {\"AR08\":1,\"AR09\":2,\"AR010\":3,\"AR011\":4,\"AR012\":5,\"AR013\":6,\"AR014\":7,\"AR015\":8,\"id\":\"tail_widget\",\"updatedAt\":1719491184000}\n\n"
+rpa_lect1: "data: {\"suf_bot_name\":\"BOT\",\"dataid\":\"rpa_lect1\",\"bot_name\":\"AR08\",\"total_record\":\"8869\",\"last_updated\":\"2024-06-21
+  15:07:33 +0530\",\"comp_record\":\"7000\",\"current\":79,\"last\":79,\"symble\":\"%\",\"stat\":\"7000/8869\",\"color_rules\":{\"id\":37,\"title_bg_color\":\"#ed333b\",\"title_fg_color\":\"#deddda\",\"tail_bg_color_0_25\":\"#e01b24\",\"tail_bg_color_25_50\":\"#ffa348\",\"tail_bg_color_50_75\":\"#33d17a\",\"tail_bg_color_75_100\":\"#62a0ea\",\"tail_fg_color_0_25\":\"#deddda\",\"tail_fg_color_25_50\":\"#3d3846\",\"tail_fg_color_50_75\":\"#5e5c64\",\"tail_fg_color_75_100\":\"#77767b\",\"header_bg_color\":\"#3584e4\",\"header_fg_color\":\"#ffffff\",\"page_bg_color\":\"#5e5c64\",\"page_fg_color\":\"#ffffff\",\"created_at\":\"2024-06-24
+  15:57:50 +0530\",\"updated_at\":\"2024-06-24 15:57:50 +0530\",\"rule_1_min\":\"0\",\"rule_1_max\":\"80\",\"rule_2_min\":\"80\",\"rule_2_max\":\"100\",\"rule_3_min\":\"\",\"rule_3_max\":\"\",\"rule_4_min\":\"\",\"rule_4_max\":\"\"},\"id\":\"rpa_lect1\",\"updatedAt\":1719491184014}\n\n"
+rpa_lect2: "data: {\"suf_bot_name\":\"BOT\",\"dataid\":\"rpa_lect2\",\"bot_name\":\"AR09\",\"total_record\":\"8869\",\"last_updated\":\"2024-06-21
+  15:07:34 +0530\",\"comp_record\":\"7000\",\"current\":79,\"last\":79,\"symble\":\"%\",\"stat\":\"7000/8869\",\"color_rules\":{\"id\":37,\"title_bg_color\":\"#ed333b\",\"title_fg_color\":\"#deddda\",\"tail_bg_color_0_25\":\"#e01b24\",\"tail_bg_color_25_50\":\"#ffa348\",\"tail_bg_color_50_75\":\"#33d17a\",\"tail_bg_color_75_100\":\"#62a0ea\",\"tail_fg_color_0_25\":\"#deddda\",\"tail_fg_color_25_50\":\"#3d3846\",\"tail_fg_color_50_75\":\"#5e5c64\",\"tail_fg_color_75_100\":\"#77767b\",\"header_bg_color\":\"#3584e4\",\"header_fg_color\":\"#ffffff\",\"page_bg_color\":\"#5e5c64\",\"page_fg_color\":\"#ffffff\",\"created_at\":\"2024-06-24
+  15:57:50 +0530\",\"updated_at\":\"2024-06-24 15:57:50 +0530\",\"rule_1_min\":\"0\",\"rule_1_max\":\"80\",\"rule_2_min\":\"80\",\"rule_2_max\":\"100\",\"rule_3_min\":\"\",\"rule_3_max\":\"\",\"rule_4_min\":\"\",\"rule_4_max\":\"\"},\"id\":\"rpa_lect2\",\"updatedAt\":1719491184015}\n\n"
+rpa_lect3: "data: {\"suf_bot_name\":\"BOT\",\"dataid\":\"rpa_lect3\",\"bot_name\":\"AR010\",\"total_record\":\"8869\",\"last_updated\":\"2024-06-21
+  15:07:35 +0530\",\"comp_record\":\"7000\",\"current\":79,\"last\":79,\"symble\":\"%\",\"stat\":\"7000/8869\",\"color_rules\":{\"id\":37,\"title_bg_color\":\"#ed333b\",\"title_fg_color\":\"#deddda\",\"tail_bg_color_0_25\":\"#e01b24\",\"tail_bg_color_25_50\":\"#ffa348\",\"tail_bg_color_50_75\":\"#33d17a\",\"tail_bg_color_75_100\":\"#62a0ea\",\"tail_fg_color_0_25\":\"#deddda\",\"tail_fg_color_25_50\":\"#3d3846\",\"tail_fg_color_50_75\":\"#5e5c64\",\"tail_fg_color_75_100\":\"#77767b\",\"header_bg_color\":\"#3584e4\",\"header_fg_color\":\"#ffffff\",\"page_bg_color\":\"#5e5c64\",\"page_fg_color\":\"#ffffff\",\"created_at\":\"2024-06-24
+  15:57:50 +0530\",\"updated_at\":\"2024-06-24 15:57:50 +0530\",\"rule_1_min\":\"0\",\"rule_1_max\":\"80\",\"rule_2_min\":\"80\",\"rule_2_max\":\"100\",\"rule_3_min\":\"\",\"rule_3_max\":\"\",\"rule_4_min\":\"\",\"rule_4_max\":\"\"},\"id\":\"rpa_lect3\",\"updatedAt\":1719491184015}\n\n"
+rpa_lect4: "data: {\"suf_bot_name\":\"BOT\",\"dataid\":\"rpa_lect4\",\"bot_name\":\"AR011\",\"total_record\":\"8869\",\"last_updated\":\"2024-06-21
+  15:07:36 +0530\",\"comp_record\":\"7000\",\"current\":79,\"last\":79,\"symble\":\"%\",\"stat\":\"7000/8869\",\"color_rules\":{\"id\":37,\"title_bg_color\":\"#ed333b\",\"title_fg_color\":\"#deddda\",\"tail_bg_color_0_25\":\"#e01b24\",\"tail_bg_color_25_50\":\"#ffa348\",\"tail_bg_color_50_75\":\"#33d17a\",\"tail_bg_color_75_100\":\"#62a0ea\",\"tail_fg_color_0_25\":\"#deddda\",\"tail_fg_color_25_50\":\"#3d3846\",\"tail_fg_color_50_75\":\"#5e5c64\",\"tail_fg_color_75_100\":\"#77767b\",\"header_bg_color\":\"#3584e4\",\"header_fg_color\":\"#ffffff\",\"page_bg_color\":\"#5e5c64\",\"page_fg_color\":\"#ffffff\",\"created_at\":\"2024-06-24
+  15:57:50 +0530\",\"updated_at\":\"2024-06-24 15:57:50 +0530\",\"rule_1_min\":\"0\",\"rule_1_max\":\"80\",\"rule_2_min\":\"80\",\"rule_2_max\":\"100\",\"rule_3_min\":\"\",\"rule_3_max\":\"\",\"rule_4_min\":\"\",\"rule_4_max\":\"\"},\"id\":\"rpa_lect4\",\"updatedAt\":1719491184015}\n\n"
+rpa_lect5: "data: {\"suf_bot_name\":\"BOT\",\"dataid\":\"rpa_lect5\",\"bot_name\":\"AR012\",\"total_record\":\"8869\",\"last_updated\":\"2024-06-21
+  15:07:37 +0530\",\"comp_record\":\"7000\",\"current\":79,\"last\":79,\"symble\":\"%\",\"stat\":\"7000/8869\",\"color_rules\":{\"id\":37,\"title_bg_color\":\"#ed333b\",\"title_fg_color\":\"#deddda\",\"tail_bg_color_0_25\":\"#e01b24\",\"tail_bg_color_25_50\":\"#ffa348\",\"tail_bg_color_50_75\":\"#33d17a\",\"tail_bg_color_75_100\":\"#62a0ea\",\"tail_fg_color_0_25\":\"#deddda\",\"tail_fg_color_25_50\":\"#3d3846\",\"tail_fg_color_50_75\":\"#5e5c64\",\"tail_fg_color_75_100\":\"#77767b\",\"header_bg_color\":\"#3584e4\",\"header_fg_color\":\"#ffffff\",\"page_bg_color\":\"#5e5c64\",\"page_fg_color\":\"#ffffff\",\"created_at\":\"2024-06-24
+  15:57:50 +0530\",\"updated_at\":\"2024-06-24 15:57:50 +0530\",\"rule_1_min\":\"0\",\"rule_1_max\":\"80\",\"rule_2_min\":\"80\",\"rule_2_max\":\"100\",\"rule_3_min\":\"\",\"rule_3_max\":\"\",\"rule_4_min\":\"\",\"rule_4_max\":\"\"},\"id\":\"rpa_lect5\",\"updatedAt\":1719491184015}\n\n"
+rpa_lect6: "data: {\"suf_bot_name\":\"BOT\",\"dataid\":\"rpa_lect6\",\"bot_name\":\"AR013\",\"total_record\":\"8869\",\"last_updated\":\"2024-06-21
+  15:07:38 +0530\",\"comp_record\":\"7000\",\"current\":79,\"last\":79,\"symble\":\"%\",\"stat\":\"7000/8869\",\"color_rules\":{\"id\":37,\"title_bg_color\":\"#ed333b\",\"title_fg_color\":\"#deddda\",\"tail_bg_color_0_25\":\"#e01b24\",\"tail_bg_color_25_50\":\"#ffa348\",\"tail_bg_color_50_75\":\"#33d17a\",\"tail_bg_color_75_100\":\"#62a0ea\",\"tail_fg_color_0_25\":\"#deddda\",\"tail_fg_color_25_50\":\"#3d3846\",\"tail_fg_color_50_75\":\"#5e5c64\",\"tail_fg_color_75_100\":\"#77767b\",\"header_bg_color\":\"#3584e4\",\"header_fg_color\":\"#ffffff\",\"page_bg_color\":\"#5e5c64\",\"page_fg_color\":\"#ffffff\",\"created_at\":\"2024-06-24
+  15:57:50 +0530\",\"updated_at\":\"2024-06-24 15:57:50 +0530\",\"rule_1_min\":\"0\",\"rule_1_max\":\"80\",\"rule_2_min\":\"80\",\"rule_2_max\":\"100\",\"rule_3_min\":\"\",\"rule_3_max\":\"\",\"rule_4_min\":\"\",\"rule_4_max\":\"\"},\"id\":\"rpa_lect6\",\"updatedAt\":1719491184015}\n\n"
+rpa_lect7: "data: {\"suf_bot_name\":\"BOT\",\"dataid\":\"rpa_lect7\",\"bot_name\":\"AR014\",\"total_record\":\"8869\",\"last_updated\":\"2024-06-21
+  15:07:39 +0530\",\"comp_record\":\"7000\",\"current\":79,\"last\":79,\"symble\":\"%\",\"stat\":\"7000/8869\",\"color_rules\":{\"id\":37,\"title_bg_color\":\"#ed333b\",\"title_fg_color\":\"#deddda\",\"tail_bg_color_0_25\":\"#e01b24\",\"tail_bg_color_25_50\":\"#ffa348\",\"tail_bg_color_50_75\":\"#33d17a\",\"tail_bg_color_75_100\":\"#62a0ea\",\"tail_fg_color_0_25\":\"#deddda\",\"tail_fg_color_25_50\":\"#3d3846\",\"tail_fg_color_50_75\":\"#5e5c64\",\"tail_fg_color_75_100\":\"#77767b\",\"header_bg_color\":\"#3584e4\",\"header_fg_color\":\"#ffffff\",\"page_bg_color\":\"#5e5c64\",\"page_fg_color\":\"#ffffff\",\"created_at\":\"2024-06-24
+  15:57:50 +0530\",\"updated_at\":\"2024-06-24 15:57:50 +0530\",\"rule_1_min\":\"0\",\"rule_1_max\":\"80\",\"rule_2_min\":\"80\",\"rule_2_max\":\"100\",\"rule_3_min\":\"\",\"rule_3_max\":\"\",\"rule_4_min\":\"\",\"rule_4_max\":\"\"},\"id\":\"rpa_lect7\",\"updatedAt\":1719491184015}\n\n"
+rpa_lect8: "data: {\"suf_bot_name\":\"BOT\",\"dataid\":\"rpa_lect8\",\"bot_name\":\"AR015\",\"total_record\":\"8869\",\"last_updated\":\"2024-06-21
+  15:07:40 +0530\",\"comp_record\":\"7000\",\"current\":79,\"last\":79,\"symble\":\"%\",\"stat\":\"7000/8869\",\"color_rules\":{\"id\":37,\"title_bg_color\":\"#ed333b\",\"title_fg_color\":\"#deddda\",\"tail_bg_color_0_25\":\"#e01b24\",\"tail_bg_color_25_50\":\"#ffa348\",\"tail_bg_color_50_75\":\"#33d17a\",\"tail_bg_color_75_100\":\"#62a0ea\",\"tail_fg_color_0_25\":\"#deddda\",\"tail_fg_color_25_50\":\"#3d3846\",\"tail_fg_color_50_75\":\"#5e5c64\",\"tail_fg_color_75_100\":\"#77767b\",\"header_bg_color\":\"#3584e4\",\"header_fg_color\":\"#ffffff\",\"page_bg_color\":\"#5e5c64\",\"page_fg_color\":\"#ffffff\",\"created_at\":\"2024-06-24
+  15:57:50 +0530\",\"updated_at\":\"2024-06-24 15:57:50 +0530\",\"rule_1_min\":\"0\",\"rule_1_max\":\"80\",\"rule_2_min\":\"80\",\"rule_2_max\":\"100\",\"rule_3_min\":\"\",\"rule_3_max\":\"\",\"rule_4_min\":\"\",\"rule_4_max\":\"\"},\"id\":\"rpa_lect8\",\"updatedAt\":1719491184015}\n\n"
+rpa_lect9: "data: {\"id\":\"rpa_lect9\",\"updatedAt\":1719491138417}\n\n"
+rpa_lect10: "data: {\"id\":\"rpa_lect10\",\"updatedAt\":1719491138417}\n\n"
+rpa_lect11: "data: {\"id\":\"rpa_lect11\",\"updatedAt\":1719491138417}\n\n"
+rpa_lect12: "data: {\"id\":\"rpa_lect12\",\"updatedAt\":1719491138417}\n\n"
+pages_AR07: "data: {\"table_headers\":[{\"value\":\"Bot Name\"},{\"value\":\"TotalRecordsCompleted\"},{\"value\":\"TotalRecordsProcessed\"},{\"value\":\"DateReleasedIntoProduction\"},{\"value\":\"AverageLengthOfRun\"},{\"value\":\"FrequencyOfOperation\"},{\"value\":\"ActionWhenBotNotRunning\"},{\"value\":\"DateFilledOut\"}],\"pages\":[{\"col1\":\"AR07\",\"col2\":\"7000\",\"col3\":\"8869\",\"col4\":\"2023-05-09\",\"col5\":\"1
+  hour 28 minutes for 88 records\",\"col6\":\"Daily\",\"col7\":\"Catch up run scheduled
+  accordingly\",\"col8\":\"2024-09-02\"}],\"id\":\"pages_AR07\",\"updatedAt\":1719490886244}\n\n"
+pages_AR08: "data: {\"table_headers\":[{\"value\":\"Bot Name\"},{\"value\":\"TotalRecordsCompleted\"},{\"value\":\"TotalRecordsProcessed\"},{\"value\":\"DateReleasedIntoProduction\"},{\"value\":\"AverageLengthOfRun\"},{\"value\":\"FrequencyOfOperation\"},{\"value\":\"ActionWhenBotNotRunning\"},{\"value\":\"DateFilledOut\"}],\"pages\":[{\"col1\":\"AR08\",\"col2\":\"7000\",\"col3\":\"8869\",\"col4\":\"2023-05-09\",\"col5\":\"1
+  hour 28 minutes for 88 records\",\"col6\":\"Daily\",\"col7\":\"Catch up run scheduled
+  accordingly\",\"col8\":\"2024-09-02\"}],\"id\":\"pages_AR08\",\"updatedAt\":1719491184068}\n\n"
+pages_AR09: "data: {\"table_headers\":[{\"value\":\"Bot Name\"},{\"value\":\"TotalRecordsCompleted\"},{\"value\":\"TotalRecordsProcessed\"},{\"value\":\"DateReleasedIntoProduction\"},{\"value\":\"AverageLengthOfRun\"},{\"value\":\"FrequencyOfOperation\"},{\"value\":\"ActionWhenBotNotRunning\"},{\"value\":\"DateFilledOut\"}],\"pages\":[{\"col1\":\"AR09\",\"col2\":\"7000\",\"col3\":\"8869\",\"col4\":\"2023-05-09\",\"col5\":\"1
+  hour 28 minutes for 88 records\",\"col6\":\"Daily\",\"col7\":\"Catch up run scheduled
+  accordingly\",\"col8\":\"2024-09-02\"}],\"id\":\"pages_AR09\",\"updatedAt\":1719491184068}\n\n"
+pages_AR010: "data: {\"table_headers\":[{\"value\":\"Bot Name\"},{\"value\":\"TotalRecordsCompleted\"},{\"value\":\"TotalRecordsProcessed\"},{\"value\":\"DateReleasedIntoProduction\"},{\"value\":\"AverageLengthOfRun\"},{\"value\":\"FrequencyOfOperation\"},{\"value\":\"ActionWhenBotNotRunning\"},{\"value\":\"DateFilledOut\"}],\"pages\":[{\"col1\":\"AR010\",\"col2\":\"7000\",\"col3\":\"8869\",\"col4\":\"2023-05-09\",\"col5\":\"1
+  hour 28 minutes for 88 records\",\"col6\":\"Daily\",\"col7\":\"Catch up run scheduled
+  accordingly\",\"col8\":\"2024-09-02\"}],\"id\":\"pages_AR010\",\"updatedAt\":1719491184068}\n\n"
+pages_AR011: "data: {\"table_headers\":[{\"value\":\"Bot Name\"},{\"value\":\"TotalRecordsCompleted\"},{\"value\":\"TotalRecordsProcessed\"},{\"value\":\"DateReleasedIntoProduction\"},{\"value\":\"AverageLengthOfRun\"},{\"value\":\"FrequencyOfOperation\"},{\"value\":\"ActionWhenBotNotRunning\"},{\"value\":\"DateFilledOut\"}],\"pages\":[{\"col1\":\"AR011\",\"col2\":\"7000\",\"col3\":\"8869\",\"col4\":\"2023-05-09\",\"col5\":\"1
+  hour 28 minutes for 88 records\",\"col6\":\"Daily\",\"col7\":\"Catch up run scheduled
+  accordingly\",\"col8\":\"2024-09-02\"}],\"id\":\"pages_AR011\",\"updatedAt\":1719491184068}\n\n"
+pages_AR012: "data: {\"table_headers\":[{\"value\":\"Bot Name\"},{\"value\":\"TotalRecordsCompleted\"},{\"value\":\"TotalRecordsProcessed\"},{\"value\":\"DateReleasedIntoProduction\"},{\"value\":\"AverageLengthOfRun\"},{\"value\":\"FrequencyOfOperation\"},{\"value\":\"ActionWhenBotNotRunning\"},{\"value\":\"DateFilledOut\"}],\"pages\":[{\"col1\":\"AR012\",\"col2\":\"7000\",\"col3\":\"8869\",\"col4\":\"2023-05-09\",\"col5\":\"1
+  hour 28 minutes for 88 records\",\"col6\":\"Daily\",\"col7\":\"Catch up run scheduled
+  accordingly\",\"col8\":\"2024-09-02\"}],\"id\":\"pages_AR012\",\"updatedAt\":1719491184069}\n\n"
+pages_AR013: "data: {\"table_headers\":[{\"value\":\"Bot Name\"},{\"value\":\"TotalRecordsCompleted\"},{\"value\":\"TotalRecordsProcessed\"},{\"value\":\"DateReleasedIntoProduction\"},{\"value\":\"AverageLengthOfRun\"},{\"value\":\"FrequencyOfOperation\"},{\"value\":\"ActionWhenBotNotRunning\"},{\"value\":\"DateFilledOut\"}],\"pages\":[{\"col1\":\"AR013\",\"col2\":\"7000\",\"col3\":\"8869\",\"col4\":\"2023-05-09\",\"col5\":\"1
+  hour 28 minutes for 88 records\",\"col6\":\"Daily\",\"col7\":\"Catch up run scheduled
+  accordingly\",\"col8\":\"2024-09-02\"}],\"id\":\"pages_AR013\",\"updatedAt\":1719491184069}\n\n"
+pages_AR014: "data: {\"table_headers\":[{\"value\":\"Bot Name\"},{\"value\":\"TotalRecordsCompleted\"},{\"value\":\"TotalRecordsProcessed\"},{\"value\":\"DateReleasedIntoProduction\"},{\"value\":\"AverageLengthOfRun\"},{\"value\":\"FrequencyOfOperation\"},{\"value\":\"ActionWhenBotNotRunning\"},{\"value\":\"DateFilledOut\"}],\"pages\":[{\"col1\":\"AR014\",\"col2\":\"7000\",\"col3\":\"8869\",\"col4\":\"2023-05-09\",\"col5\":\"1
+  hour 28 minutes for 88 records\",\"col6\":\"Daily\",\"col7\":\"Catch up run scheduled
+  accordingly\",\"col8\":\"2024-09-02\"}],\"id\":\"pages_AR014\",\"updatedAt\":1719491184069}\n\n"
+pages_AR015: "data: {\"table_headers\":[{\"value\":\"Bot Name\"},{\"value\":\"TotalRecordsCompleted\"},{\"value\":\"TotalRecordsProcessed\"},{\"value\":\"DateReleasedIntoProduction\"},{\"value\":\"AverageLengthOfRun\"},{\"value\":\"FrequencyOfOperation\"},{\"value\":\"ActionWhenBotNotRunning\"},{\"value\":\"DateFilledOut\"}],\"pages\":[{\"col1\":\"AR015\",\"col2\":\"7000\",\"col3\":\"8869\",\"col4\":\"2023-05-09\",\"col5\":\"1
+  hour 28 minutes for 88 records\",\"col6\":\"Daily\",\"col7\":\"Catch up run scheduled
+  accordingly\",\"col8\":\"2024-09-02\"}],\"id\":\"pages_AR015\",\"updatedAt\":1719491184069}\n\n"
+pages_AR016: "data: {\"table_headers\":[{\"value\":\"Bot Name\"},{\"value\":\"TotalRecordsCompleted\"},{\"value\":\"TotalRecordsProcessed\"},{\"value\":\"DateReleasedIntoProduction\"},{\"value\":\"AverageLengthOfRun\"},{\"value\":\"FrequencyOfOperation\"},{\"value\":\"ActionWhenBotNotRunning\"},{\"value\":\"DateFilledOut\"}],\"pages\":[{\"col1\":\"AR016\",\"col2\":\"7000\",\"col3\":\"8869\",\"col4\":\"2023-05-09\",\"col5\":\"1
+  hour 28 minutes for 88 records\",\"col6\":\"Daily\",\"col7\":\"Catch up run scheduled
+  accordingly\",\"col8\":\"2024-09-02\"}],\"id\":\"pages_AR016\",\"updatedAt\":1719491124243}\n\n"
+pages_AR017: "data: {\"table_headers\":[{\"value\":\"Bot Name\"},{\"value\":\"TotalRecordsCompleted\"},{\"value\":\"TotalRecordsProcessed\"},{\"value\":\"DateReleasedIntoProduction\"},{\"value\":\"AverageLengthOfRun\"},{\"value\":\"FrequencyOfOperation\"},{\"value\":\"ActionWhenBotNotRunning\"},{\"value\":\"DateFilledOut\"}],\"pages\":[{\"col1\":\"AR017\",\"col2\":\"7000\",\"col3\":\"8869\",\"col4\":\"2023-05-09\",\"col5\":\"1
+  hour 28 minutes for 88 records\",\"col6\":\"Daily\",\"col7\":\"Catch up run scheduled
+  accordingly\",\"col8\":\"2024-09-02\"}],\"id\":\"pages_AR017\",\"updatedAt\":1719491003950}\n\n"
+pages_AR020: "data: {\"table_headers\":[{\"value\":\"Bot Name\"},{\"value\":\"TotalRecordsCompleted\"},{\"value\":\"TotalRecordsProcessed\"},{\"value\":\"DateReleasedIntoProduction\"},{\"value\":\"AverageLengthOfRun\"},{\"value\":\"FrequencyOfOperation\"},{\"value\":\"ActionWhenBotNotRunning\"},{\"value\":\"DateFilledOut\"}],\"pages\":[{\"col1\":\"AR020\",\"col2\":\"7000\",\"col3\":\"8869\",\"col4\":\"2023-05-09\",\"col5\":\"1
+  hour 28 minutes for 88 records\",\"col6\":\"Daily\",\"col7\":\"Catch up run scheduled
+  accordingly\",\"col8\":\"2024-09-02\"}],\"id\":\"pages_AR020\",\"updatedAt\":1719490334585}\n\n"
+pages2_AR02: "data: {\"table_headers\":[{\"value\":\"file_name\"},{\"value\":\"Total_records\"},{\"value\":\"Input_records_to_the_bot\"},{\"value\":\"Processed_records_by_bot\"},{\"value\":\"Success_result\"}],\"pages\":[{\"id\":17,\"col1\":\"AR02\",\"col2\":\"AR01-MasterFile-07-03-2024.csv\",\"col3\":\"57\",\"col4\":\"39\",\"col5\":\"34\",\"col6\":\"87.18%\",\"table_headers\":[{\"value\":\"file_name\"},{\"value\":\"Total_records\"},{\"value\":\"Input_records_to_the_bot\"},{\"value\":\"Processed_records_by_bot\"},{\"value\":\"Success_result\"}]}],\"id\":\"pages2_AR02\",\"updatedAt\":1719491184070}\n\n"
+pages2_AR01: "data: {\"table_headers\":[{\"value\":\"file_name\"},{\"value\":\"Total_records\"},{\"value\":\"Input_records_to_the_bot\"},{\"value\":\"Processed_records_by_bot\"},{\"value\":\"Success_result\"}],\"pages\":[{\"id\":16,\"col1\":\"AR01\",\"col2\":\"AR01-MasterFile-07-03-2024.csv\",\"col3\":\"57\",\"col4\":\"39\",\"col5\":\"34\",\"col6\":\"87.18%\",\"table_headers\":[{\"value\":\"file_name\"},{\"value\":\"Total_records\"},{\"value\":\"Input_records_to_the_bot\"},{\"value\":\"Processed_records_by_bot\"},{\"value\":\"Success_result\"}]},{\"id\":15,\"col1\":\"AR01\",\"col2\":\"AR01-MasterFile-08-03-2024.csv\",\"col3\":\"49\",\"col4\":\"29\",\"col5\":\"26\",\"col6\":\"89.66%\",\"table_headers\":[{\"value\":\"file_name\"},{\"value\":\"Total_records\"},{\"value\":\"Input_records_to_the_bot\"},{\"value\":\"Processed_records_by_bot\"},{\"value\":\"Success_result\"}]},{\"id\":14,\"col1\":\"AR01\",\"col2\":\"AR01-MasterFile-09-03-2024.csv\",\"col3\":\"50\",\"col4\":\"35\",\"col5\":\"29\",\"col6\":\"82.86%\",\"table_headers\":[{\"value\":\"file_name\"},{\"value\":\"Total_records\"},{\"value\":\"Input_records_to_the_bot\"},{\"value\":\"Processed_records_by_bot\"},{\"value\":\"Success_result\"}]},{\"id\":13,\"col1\":\"AR01\",\"col2\":\"AR01-MasterFile-10-03-2024.csv\",\"col3\":\"12\",\"col4\":\"9\",\"col5\":\"6\",\"col6\":\"66.67%\",\"table_headers\":[{\"value\":\"file_name\"},{\"value\":\"Total_records\"},{\"value\":\"Input_records_to_the_bot\"},{\"value\":\"Processed_records_by_bot\"},{\"value\":\"Success_result\"}]},{\"id\":12,\"col1\":\"AR01\",\"col2\":\"AR01-MasterFile-11-03-2024.csv\",\"col3\":\"15\",\"col4\":\"13\",\"col5\":\"11\",\"col6\":\"84.62%\",\"table_headers\":[{\"value\":\"file_name\"},{\"value\":\"Total_records\"},{\"value\":\"Input_records_to_the_bot\"},{\"value\":\"Processed_records_by_bot\"},{\"value\":\"Success_result\"}]},{\"id\":11,\"col1\":\"AR01\",\"col2\":\"AR01-MasterFile-12-03-2024.csv\",\"col3\":\"47\",\"col4\":\"30\",\"col5\":\"28\",\"col6\":\"93.33%\",\"table_headers\":[{\"value\":\"file_name\"},{\"value\":\"Total_records\"},{\"value\":\"Input_records_to_the_bot\"},{\"value\":\"Processed_records_by_bot\"},{\"value\":\"Success_result\"}]},{\"id\":10,\"col1\":\"AR01\",\"col2\":\"AR01-MasterFile-13-03-2024.csv\",\"col3\":\"42\",\"col4\":\"33\",\"col5\":\"26\",\"col6\":\"78.79%\",\"table_headers\":[{\"value\":\"file_name\"},{\"value\":\"Total_records\"},{\"value\":\"Input_records_to_the_bot\"},{\"value\":\"Processed_records_by_bot\"},{\"value\":\"Success_result\"}]},{\"id\":9,\"col1\":\"AR01\",\"col2\":\"AR01-MasterFile-14-03-2024.csv\",\"col3\":\"41\",\"col4\":\"21\",\"col5\":\"18\",\"col6\":\"85.71%\",\"table_headers\":[{\"value\":\"file_name\"},{\"value\":\"Total_records\"},{\"value\":\"Input_records_to_the_bot\"},{\"value\":\"Processed_records_by_bot\"},{\"value\":\"Success_result\"}]},{\"id\":8,\"col1\":\"AR01\",\"col2\":\"AR01-MasterFile-15-03-2024.csv\",\"col3\":\"36\",\"col4\":\"23\",\"col5\":\"20\",\"col6\":\"86.96%\",\"table_headers\":[{\"value\":\"file_name\"},{\"value\":\"Total_records\"},{\"value\":\"Input_records_to_the_bot\"},{\"value\":\"Processed_records_by_bot\"},{\"value\":\"Success_result\"}]},{\"id\":7,\"col1\":\"AR01\",\"col2\":\"AR01-MasterFile-16-03-2024.csv\",\"col3\":\"58\",\"col4\":\"45\",\"col5\":\"37\",\"col6\":\"82.22%\",\"table_headers\":[{\"value\":\"file_name\"},{\"value\":\"Total_records\"},{\"value\":\"Input_records_to_the_bot\"},{\"value\":\"Processed_records_by_bot\"},{\"value\":\"Success_result\"}]},{\"id\":6,\"col1\":\"AR01\",\"col2\":\"AR01-MasterFile-17-03-2024.csv\",\"col3\":\"24\",\"col4\":\"19\",\"col5\":\"19\",\"col6\":\"100.0%\",\"table_headers\":[{\"value\":\"file_name\"},{\"value\":\"Total_records\"},{\"value\":\"Input_records_to_the_bot\"},{\"value\":\"Processed_records_by_bot\"},{\"value\":\"Success_result\"}]},{\"id\":5,\"col1\":\"AR01\",\"col2\":\"AR01-MasterFile-19-03-2024.csv\",\"col3\":\"28\",\"col4\":\"23\",\"col5\":\"20\",\"col6\":\"86.96%\",\"table_headers\":[{\"value\":\"file_name\"},{\"value\":\"Total_records\"},{\"value\":\"Input_records_to_the_bot\"},{\"value\":\"Processed_records_by_bot\"},{\"value\":\"Success_result\"}]},{\"id\":4,\"col1\":\"AR01\",\"col2\":\"AR01-MasterFile-Catchup-2024-03-17.csv\",\"col3\":\"12\",\"col4\":\"9\",\"col5\":\"8\",\"col6\":\"88.89%\",\"table_headers\":[{\"value\":\"file_name\"},{\"value\":\"Total_records\"},{\"value\":\"Input_records_to_the_bot\"},{\"value\":\"Processed_records_by_bot\"},{\"value\":\"Success_result\"}]},{\"id\":3,\"col1\":\"AR01\",\"col2\":\"AR01-MasterFile-20-03-2024.csv\",\"col3\":\"73\",\"col4\":\"57\",\"col5\":\"52\",\"col6\":\"91.23%\",\"table_headers\":[{\"value\":\"file_name\"},{\"value\":\"Total_records\"},{\"value\":\"Input_records_to_the_bot\"},{\"value\":\"Processed_records_by_bot\"},{\"value\":\"Success_result\"}]},{\"id\":2,\"col1\":\"AR01\",\"col2\":\"AR01-MasterFile-21-03-2024.csv\",\"col3\":\"50\",\"col4\":\"35\",\"col5\":\"29\",\"col6\":\"82.86%\",\"table_headers\":[{\"value\":\"file_name\"},{\"value\":\"Total_records\"},{\"value\":\"Input_records_to_the_bot\"},{\"value\":\"Processed_records_by_bot\"},{\"value\":\"Success_result\"}]},{\"id\":1,\"col1\":\"AR01\",\"col2\":\"AR01-MasterFile-13-03-2024.csv\",\"col3\":\"42\",\"col4\":\"33\",\"col5\":\"26\",\"col6\":\"78.79%\",\"table_headers\":[{\"value\":\"file_name\"},{\"value\":\"Total_records\"},{\"value\":\"Input_records_to_the_bot\"},{\"value\":\"Processed_records_by_bot\"},{\"value\":\"Success_result\"}]}],\"id\":\"pages2_AR01\",\"updatedAt\":1719491184070}\n\n"
+color_rules: "data: {\"id\":37,\"title_bg_color\":\"#ed333b\",\"title_fg_color\":\"#deddda\",\"tail_bg_color_0_25\":\"#e01b24\",\"tail_bg_color_25_50\":\"#ffa348\",\"tail_bg_color_50_75\":\"#33d17a\",\"tail_bg_color_75_100\":\"#62a0ea\",\"tail_fg_color_0_25\":\"#deddda\",\"tail_fg_color_25_50\":\"#3d3846\",\"tail_fg_color_50_75\":\"#5e5c64\",\"tail_fg_color_75_100\":\"#77767b\",\"header_bg_color\":\"#3584e4\",\"header_fg_color\":\"#ffffff\",\"page_bg_color\":\"#5e5c64\",\"page_fg_color\":\"#ffffff\",\"created_at\":\"2024-06-24
+  15:57:50 +0530\",\"updated_at\":\"2024-06-24 15:57:50 +0530\",\"rule_1_min\":\"0\",\"rule_1_max\":\"80\",\"rule_2_min\":\"80\",\"rule_2_max\":\"100\",\"rule_3_min\":\"\",\"rule_3_max\":\"\",\"rule_4_min\":\"\",\"rule_4_max\":\"\",\"id\":\"color_rules\",\"updatedAt\":1719491204142}\n\n"
+color_rules2: "data: {\"id\":37,\"title_bg_color\":\"#ed333b\",\"title_fg_color\":\"#deddda\",\"tail_bg_color_0_25\":\"#e01b24\",\"tail_bg_color_25_50\":\"#ffa348\",\"tail_bg_color_50_75\":\"#33d17a\",\"tail_bg_color_75_100\":\"#62a0ea\",\"tail_fg_color_0_25\":\"#deddda\",\"tail_fg_color_25_50\":\"#3d3846\",\"tail_fg_color_50_75\":\"#5e5c64\",\"tail_fg_color_75_100\":\"#77767b\",\"header_bg_color\":\"#3584e4\",\"header_fg_color\":\"#ffffff\",\"page_bg_color\":\"#5e5c64\",\"page_fg_color\":\"#ffffff\",\"created_at\":\"2024-06-24
+  15:57:50 +0530\",\"updated_at\":\"2024-06-24 15:57:50 +0530\",\"rule_1_min\":\"0\",\"rule_1_max\":\"80\",\"rule_2_min\":\"80\",\"rule_2_max\":\"100\",\"rule_3_min\":\"\",\"rule_3_max\":\"\",\"rule_4_min\":\"\",\"rule_4_max\":\"\",\"id\":\"color_rules2\",\"updatedAt\":1719491183995}\n\n"
+rpa_lect13: "data: {\"id\":\"rpa_lect13\",\"updatedAt\":1719491138417}\n\n"
+rpa_lect14: "data: {\"id\":\"rpa_lect14\",\"updatedAt\":1719491138417}\n\n"
+rpa_lect15: "data: {\"id\":\"rpa_lect15\",\"updatedAt\":1719491138418}\n\n"
+rpa_lect16: "data: {\"id\":\"rpa_lect16\",\"updatedAt\":1719491138418}\n\n"
+rpa_lect17: "data: {\"id\":\"rpa_lect17\",\"updatedAt\":1719491138418}\n\n"
+rpa_lect18: "data: {\"id\":\"rpa_lect18\",\"updatedAt\":1719491138418}\n\n"
+rpa_lect19: "data: {\"id\":\"rpa_lect19\",\"updatedAt\":1719491138418}\n\n"
+rpa_lect20: "data: {\"id\":\"rpa_lect20\",\"updatedAt\":1719491138418}\n\n"
+rpa_lect21: "data: {\"id\":\"rpa_lect21\",\"updatedAt\":1719491138418}\n\n"
+rpa_lect22: "data: {\"id\":\"rpa_lect22\",\"updatedAt\":1719491138418}\n\n"
+rpa_lect23: "data: {\"id\":\"rpa_lect23\",\"updatedAt\":1719491138419}\n\n"
+rpa_lect24: "data: {\"id\":\"rpa_lect24\",\"updatedAt\":1719491138419}\n\n"
+rpa_lect25: "data: {\"id\":\"rpa_lect25\",\"updatedAt\":1719491138419}\n\n"
+rpa_lect26: "data: {\"id\":\"rpa_lect26\",\"updatedAt\":1719491138419}\n\n"
+rpa_lect27: "data: {\"id\":\"rpa_lect27\",\"updatedAt\":1719491138419}\n\n"
+rpa_lect28: "data: {\"id\":\"rpa_lect28\",\"updatedAt\":1719491138419}\n\n"
+rpa_lect29: "data: {\"id\":\"rpa_lect29\",\"updatedAt\":1719491138419}\n\n"
+rpa_lect30: "data: {\"id\":\"rpa_lect30\",\"updatedAt\":1719491138419}\n\n"
+rpa_lect31: "data: {\"id\":\"rpa_lect31\",\"updatedAt\":1719491138419}\n\n"
+rpa_lect32: "data: {\"id\":\"rpa_lect32\",\"updatedAt\":1719491138419}\n\n"
+rpa_lect33: "data: {\"id\":\"rpa_lect33\",\"updatedAt\":1719491138419}\n\n"
+rpa_lect34: "data: {\"id\":\"rpa_lect34\",\"updatedAt\":1719491138419}\n\n"
+rpa_lect35: "data: {\"id\":\"rpa_lect35\",\"updatedAt\":1719491138419}\n\n"
+rpa_lect36: "data: {\"id\":\"rpa_lect36\",\"updatedAt\":1719491138420}\n\n"
+rpa_lect37: "data: {\"id\":\"rpa_lect37\",\"updatedAt\":1719491138420}\n\n"
+rpa_lect38: "data: {\"id\":\"rpa_lect38\",\"updatedAt\":1719491138420}\n\n"
+rpa_lect39: "data: {\"id\":\"rpa_lect39\",\"updatedAt\":1719491138420}\n\n"
+rpa_lect40: "data: {\"id\":\"rpa_lect40\",\"updatedAt\":1719491138420}\n\n"
+rpa_lect41: "data: {\"id\":\"rpa_lect41\",\"updatedAt\":1719491138420}\n\n"
+rpa_lect42: "data: {\"id\":\"rpa_lect42\",\"updatedAt\":1719491138420}\n\n"
+rpa_lect43: "data: {\"id\":\"rpa_lect43\",\"updatedAt\":1719491138420}\n\n"
+rpa_lect44: "data: {\"id\":\"rpa_lect44\",\"updatedAt\":1719491138420}\n\n"
+rpa_lect45: "data: {\"id\":\"rpa_lect45\",\"updatedAt\":1719491138420}\n\n"
+rpa_lect46: "data: {\"id\":\"rpa_lect46\",\"updatedAt\":1719491138420}\n\n"
+rpa_lect47: "data: {\"id\":\"rpa_lect47\",\"updatedAt\":1719491138420}\n\n"
+rpa_lect48: "data: {\"id\":\"rpa_lect48\",\"updatedAt\":1719491138420}\n\n"
+rpa_lect49: "data: {\"id\":\"rpa_lect49\",\"updatedAt\":1719491138420}\n\n"
+rpa_lect50: "data: {\"id\":\"rpa_lect50\",\"updatedAt\":1719491138420}\n\n"
+rpa_lect51: "data: {\"id\":\"rpa_lect51\",\"updatedAt\":1719491138420}\n\n"
+rpa_lect52: "data: {\"id\":\"rpa_lect52\",\"updatedAt\":1719491138421}\n\n"
+rpa_lect53: "data: {\"id\":\"rpa_lect53\",\"updatedAt\":1719491138421}\n\n"
+rpa_lect54: "data: {\"id\":\"rpa_lect54\",\"updatedAt\":1719491138421}\n\n"
+rpa_lect55: "data: {\"id\":\"rpa_lect55\",\"updatedAt\":1719491138421}\n\n"
+rpa_lect56: "data: {\"id\":\"rpa_lect56\",\"updatedAt\":1719491138421}\n\n"
+rpa_lect57: "data: {\"id\":\"rpa_lect57\",\"updatedAt\":1719491138421}\n\n"
+rpa_lect58: "data: {\"id\":\"rpa_lect58\",\"updatedAt\":1719491138421}\n\n"
+rpa_lect59: "data: {\"id\":\"rpa_lect59\",\"updatedAt\":1719491138421}\n\n"
+rpa_lect60: "data: {\"id\":\"rpa_lect60\",\"updatedAt\":1719491138421}\n\n"
+rpa_lect61: "data: {\"id\":\"rpa_lect61\",\"updatedAt\":1719491138421}\n\n"
+rpa_lect62: "data: {\"id\":\"rpa_lect62\",\"updatedAt\":1719491138421}\n\n"
+rpa_lect63: "data: {\"id\":\"rpa_lect63\",\"updatedAt\":1719491138421}\n\n"
+rpa_lect64: "data: {\"id\":\"rpa_lect64\",\"updatedAt\":1719491138421}\n\n"
+rpa_lect65: "data: {\"id\":\"rpa_lect65\",\"updatedAt\":1719491138421}\n\n"
+rpa_lect66: "data: {\"id\":\"rpa_lect66\",\"updatedAt\":1719491138421}\n\n"
+rpa_lect67: "data: {\"id\":\"rpa_lect67\",\"updatedAt\":1719491138422}\n\n"
+rpa_lect68: "data: {\"id\":\"rpa_lect68\",\"updatedAt\":1719491138422}\n\n"
+rpa_lect69: "data: {\"id\":\"rpa_lect69\",\"updatedAt\":1719491138422}\n\n"
+rpa_lect70: "data: {\"id\":\"rpa_lect70\",\"updatedAt\":1719491138422}\n\n"
+rpa_lect71: "data: {\"id\":\"rpa_lect71\",\"updatedAt\":1719491138422}\n\n"
+rpa_lect72: "data: {\"id\":\"rpa_lect72\",\"updatedAt\":1719491138422}\n\n"
+rpa_lect73: "data: {\"id\":\"rpa_lect73\",\"updatedAt\":1719491138422}\n\n"
+rpa_lect74: "data: {\"id\":\"rpa_lect74\",\"updatedAt\":1719491138422}\n\n"
+rpa_lect75: "data: {\"id\":\"rpa_lect75\",\"updatedAt\":1719491138422}\n\n"
+rpa_lect76: "data: {\"id\":\"rpa_lect76\",\"updatedAt\":1719491138422}\n\n"
+rpa_lect77: "data: {\"id\":\"rpa_lect77\",\"updatedAt\":1719491138422}\n\n"
+rpa_lect78: "data: {\"id\":\"rpa_lect78\",\"updatedAt\":1719491138422}\n\n"
+rpa_lect79: "data: {\"id\":\"rpa_lect79\",\"updatedAt\":1719491138422}\n\n"
+rpa_lect80: "data: {\"id\":\"rpa_lect80\",\"updatedAt\":1719491138422}\n\n"
+rpa_lect81: "data: {\"id\":\"rpa_lect81\",\"updatedAt\":1719491138422}\n\n"
+rpa_lect82: "data: {\"id\":\"rpa_lect82\",\"updatedAt\":1719491138423}\n\n"
+rpa_lect83: "data: {\"id\":\"rpa_lect83\",\"updatedAt\":1719491138423}\n\n"
+rpa_lect84: "data: {\"id\":\"rpa_lect84\",\"updatedAt\":1719491138423}\n\n"
+rpa_lect85: "data: {\"id\":\"rpa_lect85\",\"updatedAt\":1719491138423}\n\n"
+rpa_lect86: "data: {\"id\":\"rpa_lect86\",\"updatedAt\":1719491138423}\n\n"
+rpa_lect87: "data: {\"id\":\"rpa_lect87\",\"updatedAt\":1719491138423}\n\n"
+rpa_lect88: "data: {\"id\":\"rpa_lect88\",\"updatedAt\":1719491138423}\n\n"
+rpa_lect89: "data: {\"id\":\"rpa_lect89\",\"updatedAt\":1719491138423}\n\n"
+rpa_lect90: "data: {\"id\":\"rpa_lect90\",\"updatedAt\":1719491138423}\n\n"
+rpa_lect91: "data: {\"id\":\"rpa_lect91\",\"updatedAt\":1719491138423}\n\n"
+rpa_lect92: "data: {\"id\":\"rpa_lect92\",\"updatedAt\":1719491138423}\n\n"
+rpa_lect93: "data: {\"id\":\"rpa_lect93\",\"updatedAt\":1719491138423}\n\n"
+rpa_lect94: "data: {\"id\":\"rpa_lect94\",\"updatedAt\":1719491138423}\n\n"
+rpa_lect95: "data: {\"id\":\"rpa_lect95\",\"updatedAt\":1719491138423}\n\n"
+rpa_lect96: "data: {\"id\":\"rpa_lect96\",\"updatedAt\":1719491138423}\n\n"
+rpa_lect97: "data: {\"id\":\"rpa_lect97\",\"updatedAt\":1719491138423}\n\n"
+rpa_lect98: "data: {\"id\":\"rpa_lect98\",\"updatedAt\":1719491138424}\n\n"
+rpa_lect99: "data: {\"id\":\"rpa_lect99\",\"updatedAt\":1719491138424}\n\n"
+rpa_lect100: "data: {\"id\":\"rpa_lect100\",\"updatedAt\":1719491138424}\n\n"
+rpa_lect101: "data: {\"id\":\"rpa_lect101\",\"updatedAt\":1719491138424}\n\n"
+rpa_lect102: "data: {\"id\":\"rpa_lect102\",\"updatedAt\":1719491138424}\n\n"
+rpa_lect103: "data: {\"id\":\"rpa_lect103\",\"updatedAt\":1719491138424}\n\n"
+rpa_lect104: "data: {\"id\":\"rpa_lect104\",\"updatedAt\":1719491138424}\n\n"
+rpa_lect105: "data: {\"id\":\"rpa_lect105\",\"updatedAt\":1719491138424}\n\n"
+rpa_lect106: "data: {\"id\":\"rpa_lect106\",\"updatedAt\":1719491138424}\n\n"
+rpa_lect107: "data: {\"id\":\"rpa_lect107\",\"updatedAt\":1719491138424}\n\n"
+rpa_lect108: "data: {\"id\":\"rpa_lect108\",\"updatedAt\":1719491138424}\n\n"
+rpa_lect109: "data: {\"id\":\"rpa_lect109\",\"updatedAt\":1719491138425}\n\n"
+rpa_lect110: "data: {\"id\":\"rpa_lect110\",\"updatedAt\":1719491138425}\n\n"
+rpa_lect111: "data: {\"id\":\"rpa_lect111\",\"updatedAt\":1719491138425}\n\n"
+rpa_lect112: "data: {\"id\":\"rpa_lect112\",\"updatedAt\":1719491138425}\n\n"
+rpa_lect113: "data: {\"id\":\"rpa_lect113\",\"updatedAt\":1719491138425}\n\n"
+rpa_lect114: "data: {\"id\":\"rpa_lect114\",\"updatedAt\":1719491138425}\n\n"
+rpa_lect115: "data: {\"id\":\"rpa_lect115\",\"updatedAt\":1719491138425}\n\n"
+rpa_lect116: "data: {\"id\":\"rpa_lect116\",\"updatedAt\":1719491138425}\n\n"
+rpa_lect117: "data: {\"id\":\"rpa_lect117\",\"updatedAt\":1719491138425}\n\n"
+rpa_lect118: "data: {\"id\":\"rpa_lect118\",\"updatedAt\":1719491138425}\n\n"
+rpa_lect119: "data: {\"id\":\"rpa_lect119\",\"updatedAt\":1719491138425}\n\n"
+rpa_lect120: "data: {\"id\":\"rpa_lect120\",\"updatedAt\":1719491138426}\n\n"
+rpa_lect121: "data: {\"id\":\"rpa_lect121\",\"updatedAt\":1719491138426}\n\n"
+rpa_lect122: "data: {\"id\":\"rpa_lect122\",\"updatedAt\":1719491138426}\n\n"
+rpa_lect123: "data: {\"id\":\"rpa_lect123\",\"updatedAt\":1719491138426}\n\n"
+rpa_lect124: "data: {\"id\":\"rpa_lect124\",\"updatedAt\":1719491138426}\n\n"
+rpa_lect125: "data: {\"id\":\"rpa_lect125\",\"updatedAt\":1719491138426}\n\n"
+rpa_lect126: "data: {\"id\":\"rpa_lect126\",\"updatedAt\":1719491138426}\n\n"
+rpa_lect127: "data: {\"id\":\"rpa_lect127\",\"updatedAt\":1719491138426}\n\n"
+rpa_lect128: "data: {\"id\":\"rpa_lect128\",\"updatedAt\":1719491138426}\n\n"
+rpa_lect129: "data: {\"id\":\"rpa_lect129\",\"updatedAt\":1719491138426}\n\n"
+rpa_lect130: "data: {\"id\":\"rpa_lect130\",\"updatedAt\":1719491138427}\n\n"
+rpa_lect131: "data: {\"id\":\"rpa_lect131\",\"updatedAt\":1719491138427}\n\n"
+rpa_lect132: "data: {\"id\":\"rpa_lect132\",\"updatedAt\":1719491138427}\n\n"
+rpa_lect133: "data: {\"id\":\"rpa_lect133\",\"updatedAt\":1719491138427}\n\n"
+rpa_lect134: "data: {\"id\":\"rpa_lect134\",\"updatedAt\":1719491138427}\n\n"
+rpa_lect135: "data: {\"id\":\"rpa_lect135\",\"updatedAt\":1719491138427}\n\n"
