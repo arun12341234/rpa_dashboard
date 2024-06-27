@@ -69,11 +69,11 @@ post '/post_option' do
     # Construct the SQL DELETE statement with LIKE operator
     delete_query = "DELETE FROM Bot_Status WHERE column1 LIKE '%#{selectedOption}'"
     # Execute the delete query with parameter array
-    result = client.query(delete_query)
+    # result = client.query(delete_query)
     # Construct the SQL DELETE statement with LIKE operator
-    delete_query1 = "DELETE FROM Bot_Details WHERE column1 LIKE '%#{selectedOption}'"
+    # delete_query1 = "DELETE FROM Bot_Details WHERE column1 LIKE '%#{selectedOption}'"
     # Execute the delete query with parameter array
-    result1 = client.query(delete_query1)
+    # result1 = client.query(delete_query1)
     135.times do |i|
       puts "Iteration #{i + 1}"
       send_event "rpa_lect#{i + 1}", {}

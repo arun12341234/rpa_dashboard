@@ -30,16 +30,16 @@ class Dashing.TailDelete extends Dashing.Widget
         success: (response) ->
           console.log(response)
           if response.success
-            $('#update-color-message').text(response.message).css({
+            $('#update-color-message').html("<p>#{response.message}</p><p>Deleting........!</p><p>This may take 30 seconds</p>").css({
               'background-color': 'green',
               'display': 'block' 
             });
-            console.log('Colors updated successfully')
             setTimeout ->
-              $('#update-color-message').text('').css({
-                'display': 'none' 
-              })  # Hide the message after 5 seconds
+              $('#update-color-message').fadeOut('slow'); # Hide the message after 5 seconds
             , 5000  # 5000 milliseconds = 5 seconds
+
+
+
           else
             $('#update-color-message').text('Operation failed').css('color', 'red')
         error: (xhr, status, error) ->
