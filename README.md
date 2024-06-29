@@ -50,108 +50,54 @@ sudo apt install build-essential
 gem install bundler
 gem install smashing
 ```
-
-## Setting Up MySQL
-
-This section guides you through the installation of MySQL and configuring it to accept connections for your dashboard.
-
-### Step 4: Install MySQL
-
-Follow the instructions provided at the [Guide to install MySQL on Ubuntu](https://www.devart.com/dbforge/mysql/how-to-install-mysql-on-ubuntu/) for versions 18.04, 20.04, and 22.04.
-
-### Step 5: Configure MySQL Environment
-
-Set the MySQL environment for your Ubuntu system:
-
-```bash
-export DB_HOST=192.168.0.125 # for local 127.0.0.1
-export DB_USERNAME=root
-export DB_PASSWORD=<Password>
-export DB_DATABASE=RPA_Dashboard
-export DB_PORT=3306
-```
-
-### Step 6: Configure MySQL to Accept Connections
-
-Modify the MySQL configuration to accept connections from any IP:
-
-```bash
-sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf
-```
-
-In the file, change `bind-address` to `0.0.0.0` and restart MySQL:
-
-```bash
-sudo systemctl restart mysql
-sudo apt-get install mysql-client
-sudo apt-get install libmysqlclient-dev
-sudo apt-get install libssl-dev
-```
-
-### Step 7: Adjust MySQL User Permissions
-
-Ensure the MySQL user can connect from any host and manage user credentials:
-
-```sql
--- Check existing users
-SELECT user, host FROM mysql.user WHERE user = 'root';
-
--- Modify or create user
-CREATE USER 'root'@'%' IDENTIFIED BY 'Password@123';
-GRANT ALL PRIVILEGES ON RPA_Dashboard.* TO 'root'@'%';
-FLUSH PRIVILEGES;
-
--- Verify changes
-SHOW GRANTS FOR 'root'@'%';
-
--- Test connection
-mysql -h 192.168.0.125 -u root -pPassword@123
-```
-
 ## Deploying the Dashboard with Docker
 
-### Step 8: Download dashboad template
+### Step 4: Download dashboad template
 
 ```bash
 git clone https://github.com/arun12341234/rpa_dashboard.git
 ````
-In docker-compose <.yml> file set your mysql credential.
-
-### Optional step: Check in local system
-
-Go to rpa_dashboard dir
-Run smashing
-```bash
-smashing start
-````
-
 
 ## Deploying the Dashboard with Docker
 
 ### Step 9: Build and Run the Docker Container
 
-Build your Docker image and run your dashboard locally:
+Go to rpa_dashboard dir
+
+Install mysql to docker
+```bash
+docker pull mysql:latest
+docker network create my_network
+docker run --name test-mysql --network my_network -e MYSQL_ROOT_PASSWORD=Password@123 -e MYSQL_DATABASE=RPA_Dashboard -d mysql
+````
+
+Build your Docker image and run your dashboard:
 
 ```bash
-sudo docker build -t my-dashing-dashboard .
-sudo docker run -d -p 3030:3030 --name my-dashboard my-dashing-dashboard
+docker-compose up
 ```
+once it build and start running check browser http://localhost:3030/
+```bash
+docker ps -a
+```
+CONTAINER ID   IMAGE                 COMMAND                  CREATED          STATUS                     PORTS                 NAMES
+ad38eb54d0e7   my-project_smashing   "bundle exec smashin…"   35 minutes ago   Exited (1) 4 seconds ago                         my-project_smashing_1
+348510e744a8   mysql                 "docker-entrypoint.s…"   45 minutes ago   Up 45 minutes              3306/tcp, 33060/tcp   test-mysql
 
-Manage your Docker container:
+if my-project_smashing STATUS Exited start with CONTAINER ID
 
 ```bash
--- List Container:
-sudo docker ps -a
-
--- Stop Container:
-sudo docker stop my-dashboard
-
--- Start Container:
-sudo docker start my-dashboard
-
--- Remove Container (if you need to delete it and clean up):
-sudo docker rm -f my-dashboard
+docker start <CONTAINER ID> #Use CONTAINER ID here. In my case $ docker start ad38eb54d0e7
 ```
+
+finally all the docker containers deploye with docker successfully.
+```bash
+docker ps -a
+```
+CONTAINER ID   IMAGE                 COMMAND                  CREATED          STATUS          PORTS                                       NAMES
+0ccaf990c0d2   my-project_smashing   "bundle exec smashin…"   6 minutes ago    Up 1 second     0.0.0.0:3030->3030/tcp, :::3030->3030/tcp   my-project_smashing_1
+c088162b8660   mysql                 "docker-entrypoint.s…"   18 minutes ago   Up 18 minutes   3306/tcp, 33060/tcp                         test-mysql
+
 
 ## Updating Dashboard Data
 
