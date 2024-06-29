@@ -1,0 +1,57 @@
+docker rm $(docker ps -aq)
+
+docker exec -it adaa957ef9b2 bash
+
+docker images
+
+
+
+docker pull mysql:latest
+docker network create my_network
+docker run --name test-mysql --network my_network -e MYSQL_ROOT_PASSWORD=Password@123 -e MYSQL_DATABASE=RPA_Dashboard -d mysql
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+docker run --name mysql-container --network my-network -e MYSQL_ROOT_PASSWORD=Password@123 -d mysql:latest bash
+
+
+# Stop all running containers
+docker stop $(docker ps -q)
+
+# Remove all stopped containers
+docker rm $(docker ps -a -q)
+
+# Remove all Docker images
+docker rmi -f $(docker images -q)
+
+# (Optional) Remove all unused volumes
+docker volume prune -f
+
+# (Optional) Remove all unused networks
+docker network prune -f
+
+
+
+
+docker pull mysql:latest
+
+docker pull mysql:8.2
+
+docker run --name test-mysql -e MYSQL_ROOT_PASSWORD=Password@123 -d mysql
+
+docker run --name test-mysql --network my_network -e MYSQL_ROOT_PASSWORD=Password@123 -d mysql
+
+
+docker run --name test-smashing --network my_network -p 3030:3030 -d my-dashing-dashboard
+

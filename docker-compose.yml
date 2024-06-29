@@ -1,10 +1,12 @@
+version: '3.8'
+
 services:
   smashing:
     build: .
     ports:
       - "3030:3030"
     environment:
-      - DB_HOST=192.168.0.125
+      - DB_HOST=test-mysql
       - DB_PORT=3306
       - DB_USERNAME=root
       - DB_PASSWORD=Password@123
@@ -12,8 +14,10 @@ services:
     volumes:
       - .:/app
     networks:
-      - custom_network
+      - my_network
+
 networks:
-  custom_network:
+  my_network:
     external: true
+
 

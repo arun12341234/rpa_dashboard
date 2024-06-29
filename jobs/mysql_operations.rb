@@ -6,6 +6,7 @@ require 'rufus-scheduler'
 # Create a scheduler
 scheduler = Rufus::Scheduler.new
 puts "started create tables"
+
 # Define a method to create the table if it doesn't exist
 def create_table_if_not_exists
   client = Mysql2::Client.new(
@@ -15,7 +16,6 @@ def create_table_if_not_exists
     database: ENV['DB_DATABASE'],
     port: ENV['DB_PORT']
   )
-
   # Execute SQL to create the table if it doesn't exist
   client.query(<<-SQL)
     CREATE TABLE IF NOT EXISTS Bot_Status (
