@@ -76,7 +76,10 @@ Build your Docker image and run your dashboard:
 ```bash
 docker-compose up
 ```
-once it build and start running check browser http://localhost:3030/
+Once it build and start running check browser http://localhost:3030/ close terminal.
+
+check docker status
+
 ```bash
 docker ps -a
 ```
@@ -87,13 +90,13 @@ ad38eb54d0e7   my-project_smashing   "bundle exec smashin…"   35 minutes ago  
 348510e744a8   mysql                 "docker-entrypoint.s…"   45 minutes ago   Up 45 minutes              3306/tcp, 33060/tcp   test-mysql
 ```
 
-if my-project_smashing STATUS Exited start with CONTAINER ID
+If my-project_smashing STATUS Exited start with CONTAINER ID
 
 ```bash
 docker start <CONTAINER ID> #Use CONTAINER ID here. In my case $ docker start ad38eb54d0e7
 ```
 
-finally all the docker containers deploye with docker successfully.
+Finally all the docker containers ready.
 ```bash
 docker ps -a
 ```
