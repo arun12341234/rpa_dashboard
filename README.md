@@ -60,7 +60,7 @@ git clone https://github.com/arun12341234/rpa_dashboard.git
 
 ## Deploying the Dashboard with Docker
 
-### Step 9: Build and Run the Docker Container
+### Step 5: Build and Run the Docker Container
 
 Go to rpa_dashboard dir
 
