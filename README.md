@@ -90,7 +90,7 @@ ad38eb54d0e7   my-project_smashing   "bundle exec smashin…"   35 minutes ago  
 348510e744a8   mysql                 "docker-entrypoint.s…"   45 minutes ago   Up 45 minutes              3306/tcp, 33060/tcp   test-mysql
 ```
 
-If my-project_smashing STATUS Exited start with CONTAINER ID
+If my-project_smashing STATUS Exited. Start the container with CONTAINER ID
 
 ```bash
 docker start <CONTAINER ID> #Use CONTAINER ID here. In my case $ docker start ad38eb54d0e7
