@@ -80,9 +80,12 @@ once it build and start running check browser http://localhost:3030/
 ```bash
 docker ps -a
 ```
+
+```
 CONTAINER ID   IMAGE                 COMMAND                  CREATED          STATUS                     PORTS                 NAMES
 ad38eb54d0e7   my-project_smashing   "bundle exec smashin…"   35 minutes ago   Exited (1) 4 seconds ago                         my-project_smashing_1
 348510e744a8   mysql                 "docker-entrypoint.s…"   45 minutes ago   Up 45 minutes              3306/tcp, 33060/tcp   test-mysql
+```
 
 if my-project_smashing STATUS Exited start with CONTAINER ID
 
@@ -94,10 +97,12 @@ finally all the docker containers deploye with docker successfully.
 ```bash
 docker ps -a
 ```
+
+```
 CONTAINER ID   IMAGE                 COMMAND                  CREATED          STATUS          PORTS                                       NAMES
 0ccaf990c0d2   my-project_smashing   "bundle exec smashin…"   6 minutes ago    Up 1 second     0.0.0.0:3030->3030/tcp, :::3030->3030/tcp   my-project_smashing_1
 c088162b8660   mysql                 "docker-entrypoint.s…"   18 minutes ago   Up 18 minutes   3306/tcp, 33060/tcp                         test-mysql
-
+```
 
 ## Updating Dashboard Data
 
