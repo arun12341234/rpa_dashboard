@@ -92,6 +92,34 @@ post '/update_color' do
                '#{rule_4_max_value}')"
     client.query(sql)
 
+
+
+    client.close
+    client = Mysql2::Client.new(
+    host: ENV['DB_HOST'],
+    username: ENV['DB_USERNAME'],
+    password: ENV['DB_PASSWORD'],
+    database: ENV['DB_DATABASE'],
+    port: ENV['DB_PORT']
+    )
+
+    # Query to get the last row from color_rules
+    query = "SELECT * FROM color_rules ORDER BY id DESC LIMIT 1;"
+
+    result = client.query(query)
+
+    # Fetch the last row
+    color_rules = result.first
+
+    # Print the last row
+    # puts color_rules
+    client.close
+
+    if color_rules
+        send_event "color_rules2", color_rules
+        send_event "color_rules", color_rules
+    end
+
     puts "Data inserted successfully!"
 rescue Mysql2::Error => e
     puts "Error occurred while inserting data: #{e.message}"
